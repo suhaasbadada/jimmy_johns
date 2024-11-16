@@ -7,7 +7,7 @@ export default function CleanupBar() {
 
     let i = 1;
     let k = []
-    for (i = 1; i <= size; i++){
+    for (i = 1; i <= size; i++) {
         //k.push(bar_data[i].x);
         k.push("y" + i.toString())
     }
@@ -22,8 +22,10 @@ export default function CleanupBar() {
             keys={
                 k
             }
+            layout='horizontal'
+
             indexBy="x"
-            margin={{ top: 50, right: 40, bottom: 50, left: 60 }}
+            margin={{ top: 5, right: 10, bottom: 50, left: 140 }}
             padding={0.3}
             valueScale={{ type: 'linear' }}
             indexScale={{ type: 'band', round: true }}
@@ -77,18 +79,19 @@ export default function CleanupBar() {
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 0,
-                legend: 'Toxins',
+                legend: 'Count',
                 legendPosition: 'middle',
                 legendOffset: 32,
-                truncateTickAt: 0
+                truncateTickAt: 0,
+
             }}
             axisLeft={{
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 0,
-                legend: 'Count',
+                legend: 'Toxins',
                 legendPosition: 'middle',
-                legendOffset: -40,
+                legendOffset: -125,
                 truncateTickAt: 0
             }}
             labelSkipWidth={12}
