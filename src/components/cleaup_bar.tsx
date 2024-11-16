@@ -78,10 +78,10 @@ export default function CleanupBar() {
             axisBottom={{
                 tickSize: 5,
                 tickPadding: 5,
-                tickRotation: 0,
+                tickRotation: 45,
                 legend: 'Count',
                 legendPosition: 'middle',
-                legendOffset: 32,
+                legendOffset: 45,
                 truncateTickAt: 0,
 
             }}
