@@ -6,14 +6,11 @@ export default function CleanupBar() {
         <ResponsiveBar
             data={dummy_bar}
             keys={[
-                'hot dog',
-                'burger',
-                'sandwich',
-                'kebab',
-                'fries',
-                'donut'
+                'y1',
+                'y2',
+                'y3',
             ]}
-            indexBy="country"
+            indexBy="x"
             margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
             padding={0.3}
             valueScale={{ type: 'linear' }}
@@ -42,7 +39,7 @@ export default function CleanupBar() {
             fill={[
                 {
                     match: {
-                        id: 'fries'
+                        id: 'x'
                     },
                     id: 'dots'
                 },
