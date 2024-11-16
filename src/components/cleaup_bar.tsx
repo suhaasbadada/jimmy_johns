@@ -3,18 +3,18 @@ import { ResponsiveBar } from '@nivo/bar'
 import bar_data from "@/data/bar_chart_data.json";
 
 export default function CleanupBar() {
-    let j_object = bar_data[0];
-    let keyCount  = Object.keys(j_object).length;
+    let size = bar_data.length;
 
     let i = 1;
-
     let k = []
-
-    for (i = 1; i <= keyCount + 1; i++){
-        k.push("y" + i.toString());
+    for (i = 1; i <= size; i++){
+        //k.push(bar_data[i].x);
+        k.push("y" + i.toString())
     }
-
     i = 3;
+
+    //let a = Object.keys(j_object);
+    //i = 3;
 
     return (
         <ResponsiveBar
@@ -77,7 +77,7 @@ export default function CleanupBar() {
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 0,
-                legend: 'country',
+                legend: 'Toxins',
                 legendPosition: 'middle',
                 legendOffset: 32,
                 truncateTickAt: 0
@@ -86,7 +86,7 @@ export default function CleanupBar() {
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 0,
-                legend: 'food',
+                legend: 'Count',
                 legendPosition: 'middle',
                 legendOffset: -40,
                 truncateTickAt: 0
@@ -104,7 +104,7 @@ export default function CleanupBar() {
             }}
 
             role="application"
-            ariaLabel="Nivo bar chart demo"
+            ariaLabel="Toxins"
             barAriaLabel={e => e.id + ": " + e.formattedValue + " in country: " + e.indexValue}
         />
     )
