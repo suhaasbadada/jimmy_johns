@@ -108,7 +108,7 @@ export default function CleanupBar() {
 
             role="application"
             ariaLabel="Toxins"
-            barAriaLabel={e => e.id + ": " + e.formattedValue + " in country: " + e.indexValue}
+            barAriaLabel={e => e.id + ": " + e.formattedValue + " in toxins " + e.indexValue}
         />
     )
 }
