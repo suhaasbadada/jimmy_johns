@@ -1,0 +1,173 @@
+,State Cleanup Site #,Name,Address,City,ZIP,County,Status,Media Name,Contaminant,Chemical,SNO
+0,0000000,US Steel  North Sheet Mill,1 N Broadway,Gary,46402,Lake,Inactive,Soil,Petroleum,Stoddard Solvent,265
+5,000000009,Meridian Road Landfill,9874 N Meridian Rd,Fortville,46040,Hancock,Active,Groundwater,Lead,Lead,192
+11,000000010,Connersville City Landfill,Southeastern Rd,Connersville,47331,Fayette,Inactive,Groundwater,Lead,Lead,109
+55,000000066,Avanti Development,502-66 S Harris Ave,Indianapolis,46221,Marion,NFA,Soil,Lead,Lead,81
+68,000000081,AM General/Chippewa Avenue Wellfield,711 W Chippewa Ave,SOUTH BEND,46614,St Joseph,Active,Groundwater,Petroleum,Benzene,58
+71,000000090,ARCO South Bend Terminal,Ireland Road,SOUTH BEND,46614,St Joseph,Delisted,Groundwater,Lead,Lead,58
+72,000000090,ARCO South Bend Terminal,Ireland Road,SOUTH BEND,46614,St Joseph,Delisted,Groundwater,Petroleum,Petroleum Products,58
+73,000000090,ARCO South Bend Terminal,Ireland Road,SOUTH BEND,46614,St Joseph,Delisted,Soil,Petroleum,Petroleum Products,58
+101,000000111,Crescent Cleaners,666-668 Lincoln Avenue,EVANSVILLE,47713,Vanderburgh,REF,Soil,Petroleum,Petroleum,204
+138,000000192,Scottsdale Mall,1390 Scottsdale Mall Road,SOUTH BEND,46614,St Joseph,NFA,Soil,Petroleum,Benzene,58
+161,000000246,Nicholson File,3400 E. Lynn St.,ANDERSON,46013,Madison,Active,Soil,Petroleum,Petroleum,150
+205,000000341,Wesner Dump,CR 800 East,Odon,47562,Daviess,NFA,Soil,Lead,Lead,308
+223,000000369,Dyer Gun Range,518 Edmond Drive,Dyer,46311,Lake,NFA,Soil,Lead,Lead,116
+229,000000377,Simmons Residential Lead Investigation,14966 Rosebud Drive,Noblesville,46060,Hamilton,NFA,Soil,Lead,Lead,21
+272,0000371,U.S. Abrasives,2900 Center Street,Tippecanoe,46570,Marshall,NFA,Groundwater,Lead,Lead,583
+415,0000606,Logansport Municipal Utilities,800 Race Street,Logansport,46947,Cass,Active,Surface water,Petroleum,2-Methylnaphthalene,71
+455,0000671,Spitznogle,320 N Patterson St,Lebanon,46052,Boone,Active,Groundwater,Petroleum,Petroleum Products,110
+505,0000742,former Shell E. Chicago terminals,"2900 Michigan St.,",Hammond,46323,Lake,Active,Groundwater,Petroleum,Benzene,111
+614,0000904,Unified Capital Investment Corporation,1721 East 52nd Street,Indianapolis,46205,Marion,Active,Soil,Lead,Lead,72
+728,0001046,Williamson Polishing/Progressive Plating Co Inc,2080 Doctor Andrew J. Brown Avenue,Indianapolis,46202,Marion,Active,Soil,Lead,Lead,124
+805,0001153,Sweetser Elementary School,614 North Main Street,Sweetser,46952,Grant,NFA,Soil,Petroleum,Petroleum,133
+884,199101040,Federal Mogul Orland,Maple St. & SR 327,Orland,46776,Steuben,NFA,Groundwater,Lead,Lead,536
+890,199104143,Buckeye Pipe Line Company,123 Pipeline Drive,GRIFFITH,46319,Lake,Inactive,Groundwater,Petroleum,Benzene,141
+911,199310058,Former Mobil Station,810 N Washington St,Kokomo,46901,Howard,NFA,Groundwater,Petroleum,Diesel Gas Kerosene,22
+931,199503058,Reece Oil Co Inc,1010 S 13th St,TERRE HAUTE,47807,Vigo,NFA,Soil,Petroleum,Petroleum,183
+954,199607052,Biddle Precision Concepts,Adj N Lot Of 701 S Main,Sheridan,46069,Hamilton,NFA,Soil,Petroleum,"Solvent naphtha, petroleum, heavy aliph.",249
+961,199612015,Sears #1680,10202 E. Washington St.,Indianapolis,46205,Marion,NFA,Soil,Petroleum,Petroleum Products,72
+983,199705144,Old Evansville City Dump,SR 62 & Pigeon Ck,EVANSVILLE,47708,Vanderburgh,Delisted,Soil,Lead,Lead,687
+986,199706218,Herdrich Petroleum,276 N 150 W  Or St Rd 52 & 150,RUSHVILLE,46173,Rush,REF,Groundwater,Petroleum,Benzene,210
+988,199707015,Indiana National Guard,2391 W Sr 2,Laporte,46350,La Porte,NFA,Soil,Petroleum,Petroleum Products,13
+992,199710150,Chemrex Inc.,E Of Boiler Room,FORT WAYNE,46809,Allen,NFA,Soil,Petroleum,Petroleum Products,235
+994,199711027,Hott,Co Rd 600 N & Lee Rd,Markle,46770,Huntington,NFA,Soil,Petroleum,Benzene,400
+997,199712004,U.S. Postal Service,Main St & Sr 10,Wheatfield,46392,Jasper,NFA,Soil,Petroleum,Diesel Gas Kerosene,243
+1000,199712037,Weinland,9283 Wreeves Dr,COLUMBUS,46201,Bartholomew,Inactive,Soil,Petroleum,Petroleum Products,62
+1007,199801159,Federal Deposit Ins Corp,7300 W. Crawfordsville rd.,Indianapolis,46234,Marion,NFA,Soil,Petroleum,Petroleum Products,74
+1019,199806112,Westlane Shopping Center,7134 N Michigan Road,Indianapolis,46220,Marion,NFA,Soil,Petroleum,Petroleum Products,33
+1026,199807123,Finex Inc.,2409 E Washington St,Indianapolis,46201,Marion,NFA,Soil,Petroleum,Petroleum Products,62
+1027,199807157,Norrick Petroleum,3919 E Mcgalliard,Muncie,47303,Delaware,NFA,Soil,Petroleum,Kerosene,89
+1028,199807168,Westlake Elementary School,271 N. Sigsbee,Indianapolis,46241,Marion,NFA,Soil,Petroleum,Petroleum Products,56
+1031,199808091,Schereville Police Dept.,1640 Wilson St.,SCHERERVILLE,46375,Lake,NFA,Soil,Petroleum,Organics,98
+1033,199808135,INDOT(US 20 & CR 100),Ushwy20 And Cr100e,ANGOLA,46703,Steuben,Delisted,Soil,Petroleum,Diesel Gas Kerosene,136
+1036,199809097,Tippecanoe Hwy Dept.,Cr600e And Cr1000n,Linden,47994,Montgomery,NFA,Soil,Petroleum,Organics,692
+1040,199809513,INDOT Valparaiso subdistrict,4301 E. US 30,Valparaiso,46383,Porter,REF,Groundwater,Lead,Lead,18
+1042,199809513,INDOT Valparaiso subdistrict,4301 E. US 30,Valparaiso,46383,Porter,REF,Groundwater,Petroleum,Benzene,18
+1043,199809513,INDOT Valparaiso subdistrict,4301 E. US 30,Valparaiso,46383,Porter,REF,Groundwater,Petroleum,Ethyl benzene,18
+1044,199809513,INDOT Valparaiso subdistrict,4301 E. US 30,Valparaiso,46383,Porter,REF,Groundwater,Petroleum,Naphthalene,18
+1045,199809513,INDOT Valparaiso subdistrict,4301 E. US 30,Valparaiso,46383,Porter,REF,Groundwater,Petroleum,Toluene,18
+1055,199811022,Viking Inc.,2740 E Business,Columbia City,46725,Whitley,Inactive,Soil,Petroleum,Petroleum Products,101
+1056,199811026,Brown County Solid Waste District,711 Greasy Creek Rd,NASHVILLE,47448,Brown,NFA,Soil,Petroleum,Petroleum Products,252
+1057,199811030,SBC - Flat Rock,2590 West Sr 252,Flat Rock,47324,Shelby,NFA,Soil,Petroleum,Petroleum Products,729
+1058,199811055,Mulzer Crushed Stone,Rockport Yard 411 Washington S,ROCKPORT,47635,Spencer,Inactive,Soil,Petroleum,Petroleum Products,283
+1061,199811511,Dyer Construction Company Inc.,1716 Sheffield Ave.,Dyer,46311,Lake,REF,Groundwater,Petroleum,Petroleum Products,116
+1067,199812075,Van Buren Elementary,4045 S Sr 135,NASHVILLE,47448,Brown,NFA,Soil,Petroleum,Petroleum Products,252
+1075,199812127,CTP Metals,1401 S Harding St,Indianapolis,46221,Marion,NFA,Soil,Petroleum,Petroleum,81
+1078,199812161,Warehouse Services LLC,Old Hwy 62 East,Mount Vernon,47620,Posey,NFA,Soil,Lead,Lead,174
+1087,199901164,Spill Number 9901164,2700 S Belmont,Indianapolis,46221,Marion,NFA,Soil,Petroleum,Petroleum Products,81
+1109,199906094,City of Elkhart,1602 Arch St,Elkhart,46516,Elkhart,NFA,Soil,Petroleum,Petroleum Products,51
+1111,199906155,Richard Bennett Furniture,1285 E. Main,DANVILLE,46122,Hendricks,NFA,Surface water,Petroleum,Benzene,152
+1114,199906201,SJM Partnership,200 N Thomas Rd,FORT WAYNE,46808,Allen,NFA,Soil,Petroleum,Kerosene,128
+1120,199907020,Williams Pipeline Terminal,Ellis & State Line Road,Union City,47390,Randolph,NFA,Soil,Petroleum,Petroleum Products,301
+1122,199907108,Logansport State Hospital,1098 State Rd. 25,LOGANSPORT,46947,Cass,REF,Groundwater,Petroleum,Benzene,71
+1123,199907108,Logansport State Hospital,1098 State Rd. 25,LOGANSPORT,46947,Cass,REF,Groundwater,Petroleum,Tert-butyl methyl ether,71
+1126,199908022,BP/Amoco Pipeline,"Sheek Road, Woodgate Lot 7",GREENWOOD,46142,Johnson,REF,Soil,Petroleum,Benzene,61
+1134,199908178,Eppet and Sons Garage,RR 3 Box 251a,ROCKVILLE,47872,Parke,Delisted,Soil,Petroleum,Fuel Oil  no. 2,228
+1145,199909198,Montgomery County Jail,412 Covington,Crawfordsville,47933,Montgomery,NFA,Soil,Petroleum,Toluene,75
+1147,199910052,Rushville Sewers,135 S. Codwell Dr.,RUSHVILLE,46173,Rush,Delisted,Groundwater,Petroleum,Petroleum Products,210
+1155,199910133,Karen Bailey Property,109 Boulder Dr.,NOBLESVILLE,46060,Hamilton,Inactive,Soil,Petroleum,Petroleum,21
+1159,199911006,Fort Wayne Comm. Schools,1200 S. Clinton Street,FORT WAYNE,46802,Allen,REF,Soil,Petroleum,Diesel Gas Kerosene,208
+1160,199911062,Howell Tractor & Equipment Company,480 Blaine St,Gary,46406,Lake,NFA,Groundwater,Petroleum,Benzene,217
+1161,199911062,Howell Tractor & Equipment Company,480 Blaine St,Gary,46406,Lake,NFA,Soil,Petroleum,Benzene,217
+1167,199912033,Hook Drugs Incorporated,2800 Enterprise St,Indianapolis,46226,Marion,NFA,Soil,Petroleum,Diesel Gas Kerosene,8
+1169,199912041,Residential Property,783 Elwin Lane,Kouts,46347,Porter,Inactive,Groundwater,Petroleum,Diesel Gas Kerosene,307
+1170,199912041,Residential Property,783 Elwin Lane,Kouts,46347,Porter,Inactive,Soil,Petroleum,Diesel Gas Kerosene,307
+1175,199912131,Islamic Society of N.A.,6555 South 750 East,PLAINFIELD,46168,Hendricks,NFA,Soil,Petroleum,Petroleum Products,42
+1178,200000112,Honey Creek Mall,3401 S US Hwy 44,Terre Haute,47802,Vigo,NFA,Soil,Petroleum,Organics,40
+1180,200001086,Robert Klosinski Residence,5455 North Fall Road,LA PORTE,46350,La Porte,NFA,Soil,Petroleum,Petroleum Products,13
+1186,200002046,Roland Penix Property,807 N. Wayne St.,ANGOLA,46703,Steuben,NFA,Groundwater,Petroleum,Benzene,136
+1192,200003083,CSX - Avon,Avon rail yard,AVON,46123,Hendricks,NFA,Soil,Petroleum,Petroleum Products,36
+1199,200004250,Indalex,23841 Reedy Drive,Elkhart,46517,Elkhart,NFA,Soil,Petroleum,"Lubricating oils, petroleum, hydrotreated spent",86
+1217,200008205,Gunite Corporation,54722 Chelsea Ln,Elkhart,46516,Elkhart,NFA,Groundwater,Lead,Lead,51
+1219,200008205,Gunite Corporation,54722 Chelsea Ln,Elkhart,46516,Elkhart,NFA,Soil,Petroleum,Petroleum Products,51
+1226,200009129,Newman,435 West US 6,Valparaiso,46383,Porter,NFA,Soil,Petroleum,Petroleum Products,18
+1227,200009165,INDOT Winamac,US 35 & 11 th St,Winamac,46996,Pulaski,NFA,Soil,Petroleum,Petroleum Products,267
+1241,200010246,Taylor Oil,P.O. Box 757,Washington,47501,Daviess,NFA,Soil,Petroleum,Petroleum Products,137
+1247,200011210,Speedway Volkswagon Incorporated,1930 W 16th St,Indianapolis,46202,Marion,NFA,Soil,Petroleum,Petroleum Products,124
+1250,200012108,Metro Development,306 Civic Center Complex,EVANSVILLE,47708,Vanderburgh,NFA,Soil,Petroleum,Petroleum Products,687
+1254,200101105,Starr Senior Apartments,410 North 10th Street,Richmond,47374,Wayne,NFA,Soil,Petroleum,Petroleum Products,9
+1255,200101152,CSX Napanee,CSX railroad,Napanee,46550,Elkhart,NFA,Soil,Petroleum,Petroleum Products,177
+1266,200103182,Former Bearings & Seals,1301 W. 16th St.,Indianapolis,46202,Marion,NFA,Soil,Petroleum,Petroleum Products,124
+1267,200103191,Elwood School,1803 N. J St.,Elwood,46036,Madison,NFA,Soil,Petroleum,Petroleum Products,187
+1268,200103202,Oakland School,2100 S. P. St.,Elwood,46036,Madison,NFA,Soil,Petroleum,Petroleum Products,187
+1270,200103238,Lakeville High School,69969 US 31 South,LAKEVILLE,46536,St Joseph,NFA,Soil,Petroleum,Petroleum Products,396
+1271,200103272,Lakeville Elementary,69969 US 31 South,LAKEVILLE,46536,St Joseph,NFA,Groundwater,Petroleum,Petroleum,396
+1272,200104033,Thompson Lawn & Power,2668 S. SR 135,GREENWOOD,46142,Johnson,Inactive,Soil,Petroleum,Petroleum Products,61
+1274,200104072,Growers Coop,2030 East National Ave.,Brazil,47834,Clay,NFA,Soil,Petroleum,Petroleum Products,130
+1275,200104221,Robert Carey,SR. 35 & CR. 600 W.,Cole,47581,Grant,NFA,Soil,Petroleum,Petroleum Products,347
+1277,200104232,Tube Processing Corp  Indianapolis,1146 Nelson St,Indianapolis,46203,Marion,NFA,Soil,Petroleum,Petroleum Products,25
+1278,200104233,Lassus Brothers,4413 Meridian Road,Huntington,46750,Huntington,Delisted,Groundwater,Petroleum,Petroleum Products,84
+1297,200105146,Kroger,8939 East 38th St.,Indianapolis,46226,Marion,NFA,Soil,Petroleum,Petroleum Products,8
+1299,200105234,Marathon Bloomington,442 S. Walnut Street,Bloomington,47401,Monroe,NFA,Groundwater,Petroleum,Benzene,12
+1300,200105234,Marathon Bloomington,442 S. Walnut Street,Bloomington,47401,Monroe,NFA,Groundwater,Petroleum,Tert-butyl methyl ether,12
+1301,200105234,Marathon Bloomington,442 S. Walnut Street,Bloomington,47401,Monroe,NFA,Soil,Petroleum,Benzene,12
+1303,200105282,City of Martinsville,Seymour & Wayne St.,MARTINSVILLE,46151,Morgan,NFA,Soil,Petroleum,Petroleum Products,53
+1304,200105288,Kmart/Penske Auto,9550 Wicker Blvd.,SAINT JOHN,46373,Lake,NFA,Soil,Petroleum,Petroleum Products,158
+1306,200106007,North Shore Sales,1301 Pine Lake,LA PORTE,46350,La Porte,Delisted,Soil,Petroleum,Petroleum,13
+1311,200106185,Kite Construction/Walgreens/Taco Bell,6191 N Keystone Avenue,Indianapolis,46220,Marion,REF,Groundwater,Petroleum,Petroleum Products,33
+1312,200106185,Kite Construction/Walgreens/Taco Bell,6191 N Keystone Avenue,Indianapolis,46220,Marion,REF,Soil,Petroleum,Petroleum Products,33
+1313,200106189,Abbott Elementary School,4325 Smith St.,FORT WAYNE,46806,Allen,NFA,Soil,Petroleum,Petroleum Products,87
+1315,200106196,Saint Bartholomew Parrish,1306 27th St.,COLUMBUS,47203,Bartholomew,NFA,Soil,Petroleum,Petroleum Products,78
+1317,200107108,Baseball Fields,4th & 5th; VA + PA streets,GARY,46402,Lake,NFA,Soil,Petroleum,Petroleum Products,265
+1318,200107248,"Powco, Inc.",2583 S. S.R. 1,Cambridge City,47327,Wayne,Inactive,Soil,Petroleum,Organics,318
+1319,200107289,"200 South Michigan ST, Plymouth",200 South Michigan ST,Plymouth,46563,Marshall,Delisted,Groundwater,Petroleum,Petroleum Products,95
+1320,200107289,"200 South Michigan ST, Plymouth",200 South Michigan ST,Plymouth,46563,Marshall,Delisted,Soil,Petroleum,Petroleum Products,95
+1322,200108014,Arlan Johnson,7320 S. 325 W.,Jamestown,46147,Boone,NFA,Soil,Petroleum,Petroleum Products,389
+1324,200108073,G & G Oil,5425 n. Keystone Ave.,Indianapolis,46220,Marion,NFA,Soil,Petroleum,Organics,33
+1327,200108105,Bridgestone Firestone,225 N. 9th St.,LAFAYETTE,47901,Tippecanoe,REF,Groundwater,Petroleum,Petroleum Products,353
+1328,200108105,Bridgestone Firestone,225 N. 9th St.,LAFAYETTE,47901,Tippecanoe,REF,Soil,Petroleum,Petroleum Products,353
+1330,200108119,M & E Properties,15693 South SR 58,COLUMBUS,47201,Bartholomew,REF,Soil,Petroleum,Organics,10
+1332,200108148,Dyer Construction Site,1716 Sheffield Ave.,Dyer,46311,Lake,REF,Groundwater,Petroleum,Petroleum Products,116
+1334,200108153,Speedway Super America,1404 W Washington St,Indianapolis,46222,Marion,NFA,Soil,Petroleum,Petroleum Products,34
+1340,200109066,INDOT/Monticello,S.R. 39 and US 421,Monticello,47960,White,NFA,Soil,Petroleum,Organics,166
+1341,200109082,Old Salvation Army Builiding,600 S Mulberry Street,Muncie,47305,Delaware,NFA,Soil,Petroleum,Petroleum,363
+1342,200109092,American Rubber Products Corporation,423 Brighton st.,La Porte,46350,La Porte,NFA,Soil,Petroleum,Petroleum Products,13
+1354,200110209,Home Depot,850 S SR 135,GREENWOOD,46142,Johnson,NFA,Soil,Petroleum,Petroleum Products,61
+1359,200110517,Peerless Pump,2005 Martin Luther King ST,Indianapolis,46208,Marion,NFA,Soil,Petroleum,Petroleum Products,102
+1392,200203013,West Clark Community School,601 Renz Ave,Sellersburg,47172,Clark,NFA,Soil,Petroleum,Petroleum,140
+1394,200203044,Michael Pitcher,1131 Hospital Road,Franklin,46131,Johnson,NFA,Soil,Petroleum,Petroleum,48
+1395,200203058,Sam Pierce Chevrolet,Sr 236 W,Middletown,47356,Henry,NFA,Soil,Petroleum,Petroleum,291
+1402,200203196,Indiana University Musical Arts Center,107 S Indiana Ave,Bloomington,46405,Monroe,Inactive,Surface water,Petroleum,Petroleum,193
+1409,200204107,Henryville School,213 N. Ferguson,Henryville,47126,Clark,NFA,Soil,Petroleum,Petroleum Products,310
+1420,200205194,Crothersville,US 31 & Armstrong Road,CROTHERSVILLE,47229,Jackson,NFA,Soil,Petroleum,Petroleum Products,390
+1421,200205214,Thomas Owens,806 119th St.,HAMMOND,46394,Lake,NFA,Groundwater,Petroleum,Benzene,181
+1422,200205214,Thomas Owens,806 119th St.,HAMMOND,46394,Lake,NFA,Soil,Petroleum,Petroleum,181
+1426,200206060,Paul Hathaway,401 N Calumet Ave,Chesterton,46304,Porter,Inactive,Soil,Petroleum,Fuel Oil  no. 2,92
+1432,200206261,Crawfordsville INDOT,Grant St. & SR 32,CRAWFORDSVILLE,47933,Montgomery,NFA,Soil,Petroleum,Petroleum,75
+1440,200207252,North Side High School,475 E. State Blvd.,FORT WAYNE,46805,Allen,NFA,Soil,Petroleum,Petroleum,118
+1445,200208035,Harrison Crossing,5645 N. Post Rd.,Lawrence,46216,Marion,NFA,Soil,Petroleum,Petroleum,460
+1449,200208137,Kossuth St. Baptist Church,2901 Kossuth Street,LAFAYETTE,47901,Tippecanoe,NFA,Soil,Petroleum,Petroleum,353
+1454,200208269,"BP Products North America, Inc.",1403 North Arlington Ave.,Indianapolis,46219,Marion,NFA,Groundwater,Petroleum,Benzene,32
+1459,200209054,INDOT Plumtree,SR3 &124,Plumtree,46792,Huntington,Inactive,Soil,Petroleum,Petroleum,349
+1476,200211129,Littell Oil/Marathon,South S.R. 57 and CR 100 W,Washington,47501,Daviess,Inactive,Soil,Petroleum,Petroleum,137
+1483,200212124,HANCOCK DEVELOPING AND SUPPLY INC,1280 W MAIN STREET,GREENFIELD,46140,Hancock,NFA,Groundwater,Petroleum,Benzene,23
+1484,200212124,HANCOCK DEVELOPING AND SUPPLY INC,1280 W MAIN STREET,GREENFIELD,46140,Hancock,NFA,Soil,Petroleum,Petroleum,23
+1511,200304020,Arlington High School,4825 N Arlington Ave,Indianapolis,46226,Marion,NFA,Soil,Petroleum,"Residual oils, petroleum clay-treated",8
+1517,200305002,SES Fort Wayne,437 East Washington Blvd,FORT WAYNE,46802,Allen,REF,Soil,Lead,Lead,208
+1518,200305002,SES Fort Wayne,437 East Washington Blvd,FORT WAYNE,46802,Allen,REF,Soil,Petroleum,Gasoline,208
+1519,200305002,SES Fort Wayne,437 East Washington Blvd,FORT WAYNE,46802,Allen,REF,Soil,Petroleum,Naphthalene,208
+1536,200306083,DALLMAN INDUSTRIES,7676 ZIONSVILLE RD,Indianapolis,46268,Lake,NFA,Air,Petroleum,Petroleum,91
+1717,200502130,Venture Industries,3000 Michigan Rd.,Madison,47250,Jefferson,Inactive,Groundwater,Lead,Lead,113
+1752,200505156,SBC Madison Ave.,8939 S. Madison Ave.,Indianapolis,46227,Marion,NFA,Soil,Petroleum,Petroleum,3
+1790,200508288,DNR mines Mansfield,,Mansfield,47872,Parke,Inactive,Soil,Petroleum,Petroleum Products,228
+1798,200510040,Scott Memorial Hospital,1451 N. Gardner St.,Scottsburg,47170,Scott,Inactive,Groundwater,Petroleum,Petroleum,162
+1805,200511012,Marathon Jackson St. Frankfort,"1858 S. Jackson St.,",Frankfort,46041,Clinton,NFA,Groundwater,Petroleum,Petroleum,108
+1814,200511245,GAF Materials,505 Roeske Rd,Michigan City,46360,La Porte,Inactive,Soil,Petroleum,Petroleum,11
+1833,200602129,FC Realty,2141 N. Post Rd,Indianapolis,46280,Marion,NFA,Groundwater,Petroleum,Benzene,247
+1934,200704203,Hooks SuperX,302 W. Perry St.,Versailles,47042,Ripley,NFA,Soil,Petroleum,Petroleum,336
+1945,200705145,GE Fort Wayne,College & Wall St.,Fort Wayne,46818,Allen,NFA,Soil,Lead,Lead,121
+1975,200709153,Joanne McDonald,4929 E. Dunes Hwy,Gary,46408,Lake,REF,Groundwater,Petroleum,Petroleum,155
+2015,200802231,EAST RACE AUTOMOTIVE,604 E COLFAX AVE,SOUTH BEND,46601,St Joseph,Inactive,Soil,Petroleum,Benzene,273
+2040,200806247,Cargill Inc,307 E Williams St,Kouts,46347,Porter,Active,Groundwater,Petroleum,Petroleum,307
+2041,200806247,Cargill Inc,307 E Williams St,Kouts,46347,Porter,Active,Soil,Petroleum,Petroleum,307
+2184,201121892,Greenfield 1,N side of 2nd St,Rushville,46173,Rush,Active,Groundwater,Lead,Lead,210
+2187,201121892,Greenfield 1,N side of 2nd St,Rushville,46173,Rush,Active,Soil,Petroleum,Benzene,210
+2188,201121892,Greenfield 1,N side of 2nd St,Rushville,46173,Rush,Active,Soil,Petroleum,Benzo[a]pyrene,210
+2189,201121892,Greenfield 1,N side of 2nd St,Rushville,46173,Rush,Active,Soil,Petroleum,Naphthalene,210
+2263,201232689,Dresser Industries,900 West Mount Street,Connersville,47917,Fayette,Active,Sediment,Lead,Acenaphthene,657
+2316,201336940,Marathon 56th Street Diesel Release,56th Street and Arabian Run,Indianapolis,46268,Marion,NFA,Groundwater,Petroleum,Diesel Fuel,91
+2395,7100054,American Lead Corp,2102 Hillside Ave,Indianapolis,46218,Marion,Active,Soil,Lead,Lead,73
+2396,7100064,Troy Refinery/Freeman Kline,Hwy 66,Troy,47588,Spencer,Inactive,Soil,Petroleum,Petroleum,660
+2503,SC24411,Fleet Services,9707 U.S. Highway 24 West,Wolcott,47995,White,Delisted,Soil,Petroleum,Petroleum Products,489
+2508,SCU000122,Columbus Hospital,2400 17th Street,COLUMBUS,47201,Bartholomew,NFA,Soil,Petroleum,Petroleum Products,10
+2509,SCU000123,Mr. Hass,450 W. & 750 N.,SOUTH HAVEN,46385,Porter,Delisted,Soil,Lead,Metals,24
