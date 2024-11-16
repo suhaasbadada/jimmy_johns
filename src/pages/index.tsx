@@ -1,3 +1,4 @@
+import CleanupBar from "@/components/cleaup_bar";
 import SpillLine from "@/components/spill_line";
 
 import DefaultLayout from "@/layouts/default";
@@ -16,8 +17,15 @@ export default function IndexPage() {
                     <div className="h-80 w-full border-2 border-red-400">
                         <SpillLine />
                     </div>
-                    
                 </section>
+
+                <section className="flex flex-col items-center justify-center">
+                    <h2>Spill Cleanup Status</h2>
+                    <div className="h-80 w-full border-2 border-red-400">
+                        <CleanupBar />
+                    </div>
+                </section>
+
             </div>
 
         </DefaultLayout>
