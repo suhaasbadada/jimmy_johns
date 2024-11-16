@@ -22,7 +22,7 @@ export default function IndexPage() {
                         enableTouchCrosshair
                         useMesh
                         axisBottom={{
-                            format: "%b %d",
+                            format: "%Y",
                             legendOffset: 36,
                             legend: "time",
                             legendPosition: "middle",
