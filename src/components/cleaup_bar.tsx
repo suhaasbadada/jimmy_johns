@@ -1,15 +1,27 @@
 import { ResponsiveBar } from '@nivo/bar'
-import dummy_bar from "@/data/dummy_bar.json"
+//import dummy_bar from "@/data/dummy_bar.json";
+import bar_data from "@/data/bar_chart_data.json";
 
 export default function CleanupBar() {
+    let j_object = bar_data[0];
+    let keyCount  = Object.keys(j_object).length;
+
+    let i = 1;
+
+    let k = []
+
+    for (i = 1; i <= keyCount + 1; i++){
+        k.push("y" + i.toString());
+    }
+
+    i = 3;
+
     return (
         <ResponsiveBar
-            data={dummy_bar}
-            keys={[
-                'y1',
-                'y2',
-                'y3',
-            ]}
+            data={bar_data}
+            keys={
+                k
+            }
             indexBy="x"
             margin={{ top: 50, right: 40, bottom: 50, left: 60 }}
             padding={0.3}
@@ -90,7 +102,7 @@ export default function CleanupBar() {
                     ]
                 ]
             }}
-            
+
             role="application"
             ariaLabel="Nivo bar chart demo"
             barAriaLabel={e => e.id + ": " + e.formattedValue + " in country: " + e.indexValue}
