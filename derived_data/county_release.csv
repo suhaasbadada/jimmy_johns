@@ -1,0 +1,930 @@
+County,Chemical,Total Transfers,Total Releases
+ADAMS,Certain glycol ethers,0.0,11862.0
+ADAMS,Chromium,0.0,4.41
+ADAMS,Copper,250.0,273.1
+ADAMS,Diisocyanates,0.0,0.0
+ADAMS,Ethylene glycol,0.0,0.0
+ADAMS,Lead,0.0,147.79
+ADAMS,Manganese,0.0,2.78
+ADAMS,Nickel,0.0,4766.25
+ADAMS,Styrene,0.0,105918.0
+ADAMS,Toluene,0.0,20499.0
+ADAMS,n-Hexane,0.0,306186.4
+ALLEN,"1,2,4-Trimethylbenzene",0.0,395711.0
+ALLEN,Certain glycol ethers,0.0,10000.0
+ALLEN,Chromium,2.132,5074.624
+ALLEN,Copper,29.07,8340.07
+ALLEN,Diisocyanates,0.0,18592.17
+ALLEN,Ethylbenzene,0.0,19198.0
+ALLEN,Ethylene glycol,4335.56,349.02500000000003
+ALLEN,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,25456.0
+ALLEN,Lead,1.61,377.851
+ALLEN,Lead  And Lead Compounds,0.6699999999999999,19309.07
+ALLEN,Manganese,0.0,740.1600000000001
+ALLEN,Manganese compounds,0.0,0.0
+ALLEN,Methanol,0.0,12717.0
+ALLEN,Naphthalene,0.0,1190.0
+ALLEN,Nickel,29.722,9873.362
+ALLEN,Nitrate compounds (water dissociable; reportable only when in aqueous solution),140641.69,14064.169000000002
+ALLEN,Nitric acid,59273.37,59283.37
+ALLEN,Polycyclic aromatic compounds,0.0,1.43
+ALLEN,Styrene,0.0,367521.29
+ALLEN,Toluene,0.0,15100.0
+ALLEN,Xylene (mixed isomers),0.0,93229.0
+ALLEN,Zinc compounds,1004.56,63525.26
+ALLEN,n-Hexane,0.0,1327.0
+BARTHOLOMEW,Chromium,0.10099999999999999,10718.079
+BARTHOLOMEW,Copper,15.161,42729.632
+BARTHOLOMEW,Ethylene glycol,0.0,0.0
+BARTHOLOMEW,Lead,24.529,44.308
+BARTHOLOMEW,Lead  And Lead Compounds,0.0,17720.5
+BARTHOLOMEW,Manganese,6.646,1533.663
+BARTHOLOMEW,Manganese compounds,0.0,0.16
+BARTHOLOMEW,Nickel,22.511000000000003,1355.886
+BARTHOLOMEW,Nitrate compounds (water dissociable; reportable only when in aqueous solution),130856.87,13085.687
+BARTHOLOMEW,Nitric acid,40.0,790.0
+BARTHOLOMEW,Zinc compounds,203.14,184530.03
+BLACKFORD,Ammonia,74.34,260.74
+BLACKFORD,Ethylbenzene,0.0,196.0
+BLACKFORD,Toluene,0.0,10382.0
+BLACKFORD,Xylene (mixed isomers),0.0,930.0
+BLACKFORD,Zinc compounds,0.0,3645.428
+BOONE,Chromium,0.0,0.0
+BOONE,Copper,21.51,21.51
+BOONE,Lead,0.0,0.219
+BOONE,Manganese,0.0,13.0
+BOONE,Methanol,0.0,75400.0
+BOONE,Nickel,0.0,0.0
+BOONE,Nitric acid,0.0,0.0
+CARROLL,Ammonia,0.0,4124.0
+CARROLL,Certain glycol ethers,0.0,0.0
+CASS,Ammonia,63203.0,53820.0
+CASS,Chromium,15.2,688.2
+CASS,Copper,0.0,259.28
+CASS,Ethylbenzene,0.0,119.0
+CASS,Ethylene glycol,0.0,0.0
+CASS,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,24951.12
+CASS,Lead,0.0,19.97
+CASS,Lead compounds,0.0,33893.968
+CASS,Manganese compounds,0.0,5269119.8
+CASS,Methanol,0.0,1608.0
+CASS,Naphthalene,0.0,31.0
+CASS,Nitrate compounds (water dissociable; reportable only when in aqueous solution),91521.0,49866.0
+CASS,Nitric acid,0.0,5.0
+CASS,Polycyclic aromatic compounds,0.0,0.0
+CASS,Styrene,0.0,57.0
+CASS,Toluene,0.0,471.0
+CASS,Xylene (mixed isomers),0.0,483.0
+CASS,Zinc compounds,57.58,3769846.2800000003
+CASS,n-Hexane,0.0,6200.0
+CLARK,"1,2,4-Trimethylbenzene",0.0,1122.0
+CLARK,Ammonia,0.0,4252.969999999999
+CLARK,Certain glycol ethers,0.0,346.0
+CLARK,Chromium,0.0,0.0
+CLARK,Diisocyanates,0.0,0.0
+CLARK,Ethylbenzene,0.0,12474.29
+CLARK,Lead,0.0,53.368
+CLARK,Manganese,0.0,1026.396
+CLARK,Manganese compounds,0.0,230.0
+CLARK,Methanol,0.0,1089.04
+CLARK,Naphthalene,0.0,219.0
+CLARK,Nickel,0.0,0.0
+CLARK,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,0.0
+CLARK,Toluene,0.0,14538.43
+CLARK,Xylene (mixed isomers),0.0,71841.39
+CLARK,Zinc compounds,0.0,0.0
+CLAY,"1,2,4-Trimethylbenzene",0.0,1032.0
+CLAY,Certain glycol ethers,0.0,2585.0
+CLAY,Chromium,0.0,0.0
+CLAY,Diisocyanates,0.0,0.0
+CLAY,Ethylbenzene,0.0,1507.0
+CLAY,Lead compounds,0.0,576.0
+CLAY,Manganese,0.0,0.0
+CLAY,Manganese compounds,0.0,535.335
+CLAY,Nickel,0.0,0.0
+CLAY,Polycyclic aromatic compounds,0.0,0.05
+CLAY,Toluene,0.0,1431.0
+CLAY,Xylene (mixed isomers),0.0,3737.0
+CLAY,Zinc compounds,0.0,25962.65
+CLINTON,Diisocyanates,0.0,10615.24
+CLINTON,Ethylene glycol,0.0,3196.703
+CLINTON,Lead,0.0,0.099
+CLINTON,Lead  And Lead Compounds,0.0,3.01
+CLINTON,Manganese,0.0,0.0
+CLINTON,Manganese compounds,0.0,0.0
+CLINTON,Nickel,0.0,0.0
+CLINTON,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,79000.0
+CLINTON,Nitric acid,0.0,19.75
+CLINTON,Styrene,0.0,2607.01
+CLINTON,Zinc compounds,0.0,0.0
+CLINTON,n-Hexane,47.0,390134.0
+DAVIESS,Ethylbenzene,0.0,41.5
+DAVIESS,Manganese compounds,0.0,0.0
+DAVIESS,Methanol,0.0,853.0
+DAVIESS,Toluene,0.0,77.0
+DAVIESS,Xylene (mixed isomers),0.0,44.5
+DAVIESS,Zinc compounds,0.0,227.0
+DAVIESS,n-Hexane,0.0,6260.0
+DEARBORN,Chromium,14.8,2849.8
+DEARBORN,Copper,466.04,4778.04
+DEARBORN,Lead  And Lead Compounds,27.12,52.96
+DEARBORN,Manganese,0.0,2348.0
+DEARBORN,Nickel,50.8,262.8
+DECATUR,"1,2,4-Trimethylbenzene",0.0,17162.0
+DECATUR,Certain glycol ethers,0.0,19933.0
+DECATUR,Chromium,0.0,5.0
+DECATUR,Copper,0.0,6862.3
+DECATUR,Diisocyanates,0.0,0.0
+DECATUR,Ethylbenzene,0.0,140.0
+DECATUR,Ethylene glycol,0.0,300.1
+DECATUR,Lead,3.596,222.522
+DECATUR,Lead  And Lead Compounds,0.0,152.0
+DECATUR,Manganese,0.0,0.0
+DECATUR,Manganese compounds,189.0,5688.0
+DECATUR,Methanol,0.0,126.0
+DECATUR,Nickel,0.0,0.0
+DECATUR,Nitrate compounds (water dissociable; reportable only when in aqueous solution),195115.0,19528.7
+DECATUR,Nitric acid,0.0,96.88900000000001
+DECATUR,Polycyclic aromatic compounds,0.0,0.08
+DECATUR,Toluene,0.0,1111.0
+DECATUR,Xylene (mixed isomers),0.0,746.0
+DECATUR,Zinc compounds,210.0,19507.92
+DEKALB,"1,2,4-Trimethylbenzene",0.0,31930.09
+DEKALB,Certain glycol ethers,0.0,74441.0
+DEKALB,Chromium,0.71,536.447
+DEKALB,Copper,0.0,2042.0
+DEKALB,Diisocyanates,0.0,1570.59
+DEKALB,Ethylbenzene,0.0,4650.0
+DEKALB,Ethylene glycol,220.0,1261.53
+DEKALB,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,69.037
+DEKALB,Lead,0.04,4339.173
+DEKALB,Lead  And Lead Compounds,0.0,0.011
+DEKALB,Lead compounds,0.0,13241.19
+DEKALB,Manganese,41.6,4158.325
+DEKALB,Manganese compounds,0.0,269986.0
+DEKALB,Naphthalene,0.0,6616.0
+DEKALB,Nickel,13.43,766.772
+DEKALB,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,0.0
+DEKALB,Nitric acid,0.0,0.0
+DEKALB,Styrene,0.0,105142.0
+DEKALB,Toluene,0.0,68599.0
+DEKALB,Xylene (mixed isomers),0.0,53556.0
+DEKALB,Zinc compounds,442.02,233596.08000000002
+DELAWARE,"1,2,4-Trimethylbenzene",0.0,4.0
+DELAWARE,Certain glycol ethers,0.0,0.0
+DELAWARE,Chromium,1.18,4494.91
+DELAWARE,Copper,6.86,88.22
+DELAWARE,Diisocyanates,0.0,0.0
+DELAWARE,Ethylbenzene,0.0,29.0
+DELAWARE,Ethylene glycol,0.0,0.0
+DELAWARE,Lead,0.93,2.707
+DELAWARE,Lead  And Lead Compounds,57.398,920115.065
+DELAWARE,Manganese,90.82,271.62
+DELAWARE,Naphthalene,0.0,4.0
+DELAWARE,Nickel,0.44,7292.32
+DELAWARE,Polycyclic aromatic compounds,0.0,0.0
+DELAWARE,Styrene,0.0,23560.0
+DELAWARE,Toluene,0.0,370.0
+DELAWARE,Xylene (mixed isomers),0.0,152.0
+DELAWARE,Zinc compounds,0.0,1546.05
+DELAWARE,n-Hexane,0.0,450.0
+DUBOIS,Chromium,0.0,0.0
+DUBOIS,Copper,0.0,0.0
+DUBOIS,Diisocyanates,0.0,0.0
+DUBOIS,Ethylbenzene,0.0,17765.81
+DUBOIS,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,0.0
+DUBOIS,Nitric acid,0.0,0.0
+DUBOIS,Toluene,0.0,36618.11
+DUBOIS,Xylene (mixed isomers),0.0,86024.16
+ELKHART,"1,2,4-Trimethylbenzene",0.0,6585.95
+ELKHART,Certain glycol ethers,139.0,32863.43
+ELKHART,Chromium,18.465,128083.498
+ELKHART,Copper,104.85000000000001,8964.396
+ELKHART,Diisocyanates,0.0,15.54
+ELKHART,Ethylbenzene,0.0,13009.2
+ELKHART,Ethylene glycol,0.0,0.0
+ELKHART,Lead,27.603,117.047
+ELKHART,Lead  And Lead Compounds,0.0,0.0
+ELKHART,Lead compounds,6.29,242.29
+ELKHART,Manganese,0.0,56950.494999999995
+ELKHART,Methanol,0.0,25389.0
+ELKHART,Naphthalene,0.0,70.05
+ELKHART,Nickel,41.886,11461.507000000001
+ELKHART,Nitrate compounds (water dissociable; reportable only when in aqueous solution),140762.2,14076.2
+ELKHART,Nitric acid,0.0,1504.04
+ELKHART,Styrene,0.0,870957.1799999999
+ELKHART,Toluene,0.0,134466.0
+ELKHART,Xylene (mixed isomers),0.0,117135.45999999999
+ELKHART,Zinc compounds,52.0,646173.28
+ELKHART,n-Hexane,0.0,8118.0
+FAYETTE,"1,2,4-Trimethylbenzene",0.0,1046.0
+FAYETTE,Certain glycol ethers,0.0,2526.0
+FAYETTE,Ethylbenzene,0.0,1550.0
+FAYETTE,Lead,0.0,0.04
+FAYETTE,Lead compounds,0.0,16290.36
+FAYETTE,Methanol,0.0,2234.0
+FAYETTE,Naphthalene,0.0,256.95
+FAYETTE,Nickel,0.0,56.1
+FAYETTE,Styrene,0.0,314.0
+FAYETTE,Toluene,0.0,2962.0
+FAYETTE,Xylene (mixed isomers),0.0,8676.0
+FAYETTE,n-Hexane,0.0,103.83
+FLOYD,Copper,133.7,144.4
+FLOYD,Lead,2.7,6.3
+FLOYD,Lead  And Lead Compounds,0.0,0.08
+FLOYD,Manganese compounds,0.0,1.36
+FLOYD,Nickel,82.3,99.0
+FLOYD,Nitrate compounds (water dissociable; reportable only when in aqueous solution),74766.0,7736.6
+FLOYD,Nitric acid,5.0,105.0
+FLOYD,Zinc compounds,0.0,0.0
+FOUNTAIN,Chromium,5.0,11190.01
+FOUNTAIN,Diisocyanates,0.0,15.6
+FOUNTAIN,Ethylbenzene,0.0,8082.0
+FOUNTAIN,Lead,5.0,439.461
+FOUNTAIN,Lead  And Lead Compounds,0.274,866.091
+FOUNTAIN,Lead compounds,11.5,11.5
+FOUNTAIN,Manganese,5.0,10365.18
+FOUNTAIN,Naphthalene,0.0,19461.55
+FOUNTAIN,Nickel,5.0,8987.0
+FOUNTAIN,Toluene,0.0,5292.4
+FOUNTAIN,Xylene (mixed isomers),0.0,61928.0
+FOUNTAIN,Zinc compounds,19.6,53.7
+FRANKLIN,Ethylene glycol,0.0,213.0
+FRANKLIN,Lead compounds,0.0,78.08
+FRANKLIN,Polycyclic aromatic compounds,0.0,69.472
+FULTON,Copper,0.0,11818.17
+FULTON,Diisocyanates,0.0,32.64
+FULTON,Lead,0.0,70.27
+FULTON,Manganese,0.0,4946.11
+FULTON,Styrene,0.0,101481.61
+GIBSON,"1,2,4-Trimethylbenzene",0.0,62661.0
+GIBSON,Ammonia,0.0,3200.0
+GIBSON,Certain glycol ethers,0.0,5849.0
+GIBSON,Chromium,9.0,568.0
+GIBSON,Copper,0.0,0.844
+GIBSON,Diisocyanates,0.0,400.975
+GIBSON,Ethylbenzene,0.0,3221.0
+GIBSON,Ethylene glycol,0.0,65.0
+GIBSON,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,160000.0
+GIBSON,Lead,0.0,0.05
+GIBSON,Lead  And Lead Compounds,0.0,110162.6
+GIBSON,Lead compounds,20.0,964.2
+GIBSON,Manganese compounds,87.0,697.0
+GIBSON,Methanol,0.0,15701.0
+GIBSON,Naphthalene,0.0,1256.0
+GIBSON,Nitrate compounds (water dissociable; reportable only when in aqueous solution),98713.0,12995.3
+GIBSON,Nitric acid,172061.0,0.0
+GIBSON,Polycyclic aromatic compounds,0.0,6.5
+GIBSON,Toluene,0.0,4321.0
+GIBSON,Xylene (mixed isomers),0.0,17754.0
+GIBSON,Zinc compounds,185.0,397383.0
+GRANT,Ammonia,0.0,0.0
+GRANT,Chromium,0.0,33.5
+GRANT,Copper,6.95,39.95
+GRANT,Diisocyanates,0.0,0.0
+GRANT,Ethylbenzene,0.0,3485.462
+GRANT,Ethylene glycol,0.0,590.961
+GRANT,Lead,0.0,116.77
+GRANT,Lead compounds,0.94,5203.18
+GRANT,Manganese,0.0,449.06
+GRANT,Methanol,0.0,7893.174
+GRANT,Nickel,0.0,28.380000000000003
+GRANT,Toluene,0.0,44206.09
+GRANT,Xylene (mixed isomers),0.0,22625.637
+GRANT,Zinc compounds,26.26,6315.26
+GREENE,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,8291.0
+HAMILTON,"1,2,4-Trimethylbenzene",0.0,48.0
+HAMILTON,Certain glycol ethers,0.0,0.0
+HAMILTON,Chromium,0.0,13.0
+HAMILTON,Diisocyanates,0.0,0.0
+HAMILTON,Ethylbenzene,0.0,58.0
+HAMILTON,Ethylene glycol,0.0,0.0
+HAMILTON,Lead,0.05,50.05
+HAMILTON,Lead  And Lead Compounds,0.0,0.026
+HAMILTON,Manganese,0.0,280.0
+HAMILTON,Methanol,0.0,0.0
+HAMILTON,Naphthalene,0.0,0.0
+HAMILTON,Nickel,0.0,6.0
+HAMILTON,Nitric acid,0.0,0.0
+HAMILTON,Styrene,0.0,17337.0
+HAMILTON,Toluene,0.0,385.0
+HAMILTON,Xylene (mixed isomers),0.0,232.0
+HAMILTON,Zinc compounds,5.0,4804.99
+HAMILTON,n-Hexane,0.0,627.0
+HANCOCK,"1,2,4-Trimethylbenzene",0.0,1516.0
+HANCOCK,Certain glycol ethers,0.0,7335.0
+HANCOCK,Chromium,0.0,79461.13
+HANCOCK,Copper,0.55,112.65
+HANCOCK,Lead,0.44,1.1019999999999999
+HANCOCK,Naphthalene,0.0,752.0
+HANCOCK,Nickel,1.16,64463.43
+HANCOCK,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,0.0
+HANCOCK,Nitric acid,0.0,0.0
+HANCOCK,Styrene,0.0,257590.0
+HANCOCK,Toluene,0.0,472.0
+HANCOCK,Xylene (mixed isomers),0.0,1041.0
+HANCOCK,Zinc compounds,5.0,5.0
+HARRISON,"1,2,4-Trimethylbenzene",0.0,43.0
+HENDRICKS,Ammonia,0.0,0.0
+HENDRICKS,Chromium,0.0,87.547
+HENDRICKS,Lead,0.0,2.821
+HENDRICKS,Lead compounds,6.39,1098.016
+HENDRICKS,Manganese,0.0,768.173
+HENDRICKS,Manganese compounds,0.0,6157.0
+HENDRICKS,Nitric acid,0.0,0.0
+HENDRICKS,Toluene,0.0,0.0
+HENDRICKS,Zinc compounds,132.0,37125.0
+HENRY,Ammonia,0.0,0.0
+HENRY,Chromium,28.0,5518.0
+HENRY,Copper,0.0,2026.71
+HENRY,Diisocyanates,0.0,2.58
+HENRY,Lead,0.0,2806.01
+HENRY,Manganese,1.0,654.0
+HENRY,Nickel,24.0,6756.0
+HENRY,Nitrate compounds (water dissociable; reportable only when in aqueous solution),7448.0,744.8
+HENRY,Nitric acid,0.0,1.0
+HOWARD,Ammonia,0.0,3059.8199999999997
+HOWARD,Chromium,0.56,1288.72
+HOWARD,Copper,23.96,5747.700000000001
+HOWARD,Lead,10.767999999999999,223.75799999999998
+HOWARD,Manganese,6.0,1693.94
+HOWARD,Nickel,79.58800000000001,14605.714
+HOWARD,Nitric acid,0.0,416.1
+HUNTINGTON,"1,2,4-Trimethylbenzene",0.0,0.0
+HUNTINGTON,Ammonia,0.0,0.0
+HUNTINGTON,Certain glycol ethers,89.7,16.2
+HUNTINGTON,Copper,0.0,924.865
+HUNTINGTON,Ethylbenzene,0.0,222.0
+HUNTINGTON,Lead,0.0,3.07
+HUNTINGTON,Lead  And Lead Compounds,0.0,8.784
+HUNTINGTON,Lead compounds,0.09,0.122
+HUNTINGTON,Manganese,2.0,29.0
+HUNTINGTON,Manganese compounds,0.0,0.0
+HUNTINGTON,Naphthalene,0.0,0.0
+HUNTINGTON,Nickel,0.2,10.2
+HUNTINGTON,Nitrate compounds (water dissociable; reportable only when in aqueous solution),57292.0,5729.2
+HUNTINGTON,Nitric acid,0.0,10.0
+HUNTINGTON,Styrene,0.0,36181.58
+HUNTINGTON,Toluene,0.0,740.0
+HUNTINGTON,Xylene (mixed isomers),0.0,222.0
+HUNTINGTON,n-Hexane,0.0,124.0
+JACKSON,Ammonia,0.0,1250.0
+JACKSON,Certain glycol ethers,0.0,787.09
+JACKSON,Chromium,1.35,10.546999999999999
+JACKSON,Copper,1.57,3873167.34
+JACKSON,Diisocyanates,0.0,0.0
+JACKSON,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,3347.0
+JACKSON,Lead,0.0,0.0
+JACKSON,Manganese,9.0,4313.710999999999
+JACKSON,Methanol,0.0,1166.25
+JACKSON,Nickel,3.13,5.28
+JACKSON,Nitrate compounds (water dissociable; reportable only when in aqueous solution),10085.0,5154.5
+JACKSON,Toluene,0.0,10506.74
+JACKSON,Zinc compounds,20.33,10300.33
+JACKSON,n-Hexane,0.0,129982.25
+JASPER,Chromium,0.0,0.067
+JASPER,Copper,0.0,0.0
+JASPER,Ethylbenzene,0.0,0.0
+JASPER,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,51137.0
+JASPER,Lead,0.0,0.049
+JASPER,Lead compounds,0.0,31463.506
+JASPER,Manganese,0.0,21.3
+JASPER,Manganese compounds,0.0,79402.0
+JASPER,Methanol,0.0,1289.0
+JASPER,Nickel,0.0,0.67
+JASPER,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,0.0
+JASPER,Nitric acid,0.0,0.0
+JASPER,Toluene,0.0,0.0
+JASPER,Xylene (mixed isomers),0.0,0.0
+JASPER,Zinc compounds,0.0,114637.78
+JASPER,n-Hexane,0.0,3196.0
+JAY,Chromium,5.0,10.0
+JAY,Copper,0.129,144.299
+JAY,Lead,0.001,2.532
+JAY,Lead  And Lead Compounds,0.0,374.328
+JAY,Manganese,9.0,19.0
+JAY,Nickel,5.0,11.0
+JAY,n-Hexane,0.0,4330.0
+JEFFERSON,"1,2,4-Trimethylbenzene",0.0,5688.0
+JEFFERSON,Certain glycol ethers,0.0,41808.33
+JEFFERSON,Chromium,0.3,555.41
+JEFFERSON,Copper,1.47,784.33
+JEFFERSON,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,101297.0
+JEFFERSON,Lead,0.0,7.7
+JEFFERSON,Lead  And Lead Compounds,0.0,17320.0
+JEFFERSON,Manganese,2.32,343.6
+JEFFERSON,Manganese compounds,0.0,1016.68
+JEFFERSON,Nickel,0.29,26.82
+JEFFERSON,Nitric acid,0.0,0.0
+JEFFERSON,Polycyclic aromatic compounds,0.0,3.0
+JEFFERSON,Zinc compounds,0.0,43680.0
+JENNINGS,Certain glycol ethers,0.0,13110.01
+JENNINGS,Chromium,0.0,0.0
+JENNINGS,Copper,2.75,4319.26
+JENNINGS,Ethylene glycol,0.0,0.0
+JENNINGS,Lead,0.0,0.0
+JENNINGS,Lead compounds,0.0,76.93
+JENNINGS,Manganese,0.0,0.0
+JENNINGS,Polycyclic aromatic compounds,0.0,0.12
+JENNINGS,Styrene,0.0,7183.16
+JOHNSON,"1,2,4-Trimethylbenzene",0.0,3761.0
+JOHNSON,Certain glycol ethers,0.0,146.0
+JOHNSON,Chromium,0.004,5529.004
+JOHNSON,Copper,0.0,352.0
+JOHNSON,Diisocyanates,0.0,16898.033
+JOHNSON,Ethylbenzene,0.0,657.0
+JOHNSON,Ethylene glycol,0.0,289.9
+JOHNSON,Lead  And Lead Compounds,0.0,1033.42
+JOHNSON,Manganese,0.0,2683.0
+JOHNSON,Nickel,0.01,7108.01
+JOHNSON,Nitrate compounds (water dissociable; reportable only when in aqueous solution),12517.0,12517.0
+JOHNSON,Nitric acid,2.0,3.76
+JOHNSON,Polycyclic aromatic compounds,0.0,5.5
+JOHNSON,Xylene (mixed isomers),0.0,2627.0
+KNOX,Ammonia,0.0,225408.0
+KNOX,Copper,0.0,88250.4
+KNOX,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,778.0
+KNOX,Lead,0.0,253.65
+KNOX,Lead  And Lead Compounds,0.0,27555.41
+KNOX,Manganese,0.0,92768.54599999999
+KNOX,Polycyclic aromatic compounds,0.0,0.5
+KNOX,Zinc compounds,0.0,91515.0
+KOSCIUSKO,Certain glycol ethers,0.0,0.0
+KOSCIUSKO,Chromium,11.397,119.63300000000001
+KOSCIUSKO,Copper,4.27,2349.407
+KOSCIUSKO,Diisocyanates,0.0,15.0
+KOSCIUSKO,Lead,2.19,40.661
+KOSCIUSKO,Manganese,0.241,12.239
+KOSCIUSKO,Manganese compounds,0.3,1766.01
+KOSCIUSKO,Methanol,0.0,5634.0
+KOSCIUSKO,Nickel,60.108999999999995,246.67399999999998
+KOSCIUSKO,Nitrate compounds (water dissociable; reportable only when in aqueous solution),56959.0,5443.5
+KOSCIUSKO,Nitric acid,12301.0,14755.0
+KOSCIUSKO,Styrene,0.0,264186.0
+KOSCIUSKO,Toluene,0.0,76095.0
+KOSCIUSKO,Xylene (mixed isomers),0.0,6.0
+KOSCIUSKO,Zinc compounds,0.0,38.0
+KOSCIUSKO,n-Hexane,0.0,706032.0
+LAGRANGE,Certain glycol ethers,0.0,674.74
+LAGRANGE,Chromium,0.0,251.0
+LAGRANGE,Copper,0.0,0.0
+LAGRANGE,Diisocyanates,0.0,0.0
+LAGRANGE,Lead,0.0,8.0
+LAGRANGE,Manganese,0.0,58.0
+LAGRANGE,Nickel,0.0,26.0
+LAGRANGE,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,24928.0
+LAGRANGE,Nitric acid,0.0,1.0
+LAGRANGE,Toluene,0.0,891.93
+LAGRANGE,Zinc compounds,3.47,5351.48
+LAKE,"1,2,4-Trimethylbenzene",0.0,20157.98
+LAKE,Ammonia,928.0,521049.2
+LAKE,Certain glycol ethers,0.0,9094.253
+LAKE,Chromium,1.2,111252.2
+LAKE,Copper,0.0,0.0
+LAKE,Diisocyanates,0.0,48304.0
+LAKE,Ethylbenzene,0.0,20687.0
+LAKE,Ethylene glycol,0.0,1075178.71
+LAKE,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,235235.09999999998
+LAKE,Lead,0.0,7535.400000000001
+LAKE,Lead  And Lead Compounds,145.853,502076.123
+LAKE,Lead compounds,3.62,394.48
+LAKE,Manganese,0.0,12242.3
+LAKE,Manganese compounds,0.0,754.23
+LAKE,Methanol,12593.0,19010.84
+LAKE,Naphthalene,0.0,11328.022
+LAKE,Nickel,0.0,1.0
+LAKE,Nitrate compounds (water dissociable; reportable only when in aqueous solution),24102.0,1459488.24
+LAKE,Nitric acid,0.0,93.9
+LAKE,Polycyclic aromatic compounds,0.0,6718.422
+LAKE,Styrene,0.0,15075.0
+LAKE,Toluene,0.0,105784.50899999999
+LAKE,Xylene (mixed isomers),767.0,106895.816
+LAKE,Zinc compounds,71.77,7703858.57
+LAKE,n-Hexane,0.0,140515.092
+LAPORTE,"1,2,4-Trimethylbenzene",0.0,12333.0
+LAPORTE,Ammonia,0.0,2597.42
+LAPORTE,Certain glycol ethers,0.0,14378.0
+LAPORTE,Chromium,36.26,467.466
+LAPORTE,Copper,1.33,229.47
+LAPORTE,Diisocyanates,0.0,0.0
+LAPORTE,Ethylene glycol,0.0,0.0
+LAPORTE,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,191.0
+LAPORTE,Lead,0.0,0.0
+LAPORTE,Lead compounds,0.0,10234.871
+LAPORTE,Manganese,0.0,1806.34
+LAPORTE,Manganese compounds,0.0,25895.0
+LAPORTE,Methanol,0.0,44805.0
+LAPORTE,Nickel,59.0,624.4
+LAPORTE,Nitrate compounds (water dissociable; reportable only when in aqueous solution),12490.0,1249.0
+LAPORTE,Nitric acid,0.0,457.007
+LAPORTE,Polycyclic aromatic compounds,0.0,5542.153
+LAPORTE,Xylene (mixed isomers),0.0,6088.0
+LAPORTE,Zinc compounds,67.0,38279.006
+LAPORTE,n-Hexane,0.0,0.0
+LAWRENCE,Ammonia,0.0,12993.0
+LAWRENCE,Copper,0.0,350.31
+LAWRENCE,Lead,0.0,61.369
+LAWRENCE,Lead  And Lead Compounds,0.0,413.0
+LAWRENCE,Manganese compounds,0.0,1004.0
+LAWRENCE,Nickel,0.0,13.0
+MADISON,Ammonia,0.0,0.0
+MADISON,Chromium,0.0,4.9
+MADISON,Copper,4.28,4.56
+MADISON,Lead compounds,0.0,275.65
+MADISON,Manganese,0.0,0.28
+MADISON,Nickel,0.0,0.28
+MADISON,Nitrate compounds (water dissociable; reportable only when in aqueous solution),7060.0,2.2
+MADISON,Nitric acid,0.0,505.0
+MADISON,Toluene,0.0,705.0
+MADISON,Zinc compounds,0.0,0.0
+MADISON,n-Hexane,0.0,3512.0
+MARION,"1,2,4-Trimethylbenzene",0.0,216.0
+MARION,Ammonia,20095.73,22111.0
+MARION,Certain glycol ethers,1563.509,2709.749
+MARION,Chromium,49.65,701183.9
+MARION,Copper,52.22,837027.63
+MARION,Diisocyanates,0.0,13456.12
+MARION,Ethylbenzene,1.0,768.0
+MARION,Ethylene glycol,0.0,560.0
+MARION,Lead,5.6,766481.512
+MARION,Lead  And Lead Compounds,84.75,1681259.25
+MARION,Lead compounds,9.5,9.513
+MARION,Manganese,110.68,117603.48
+MARION,Manganese compounds,5.0,25.0
+MARION,Methanol,39134.0,8850.72
+MARION,Naphthalene,0.0,165.0
+MARION,Nickel,77.95,1397076.1099999999
+MARION,Nitrate compounds (water dissociable; reportable only when in aqueous solution),125884.14,41738.54
+MARION,Nitric acid,203997.29,667.442
+MARION,Polycyclic aromatic compounds,0.0,332.775
+MARION,Styrene,993.0,6128.95
+MARION,Toluene,32.0,39866.08
+MARION,Xylene (mixed isomers),488.0,35406.19
+MARION,Zinc compounds,72.844,936720.4
+MARION,n-Hexane,0.0,8409.0
+MARSHALL,Certain glycol ethers,0.0,5371.0
+MARSHALL,Chromium,0.0,0.0
+MARSHALL,Copper,72.0,7590.0
+MARSHALL,Diisocyanates,0.0,36305.2
+MARSHALL,Ethylbenzene,0.0,8046.0
+MARSHALL,Lead,0.0,8.052
+MARSHALL,Lead  And Lead Compounds,0.213,1793.093
+MARSHALL,Manganese,0.0,250.0
+MARSHALL,Nickel,0.0,0.0
+MARSHALL,Nitrate compounds (water dissociable; reportable only when in aqueous solution),31201.0,3120.1
+MARSHALL,Nitric acid,5750.0,0.0
+MARSHALL,Polycyclic aromatic compounds,0.0,35.0
+MARSHALL,Styrene,0.0,1006091.1699999999
+MARSHALL,Toluene,0.0,32738.705
+MARSHALL,Xylene (mixed isomers),0.0,50117.44
+MARSHALL,Zinc compounds,282.0,14389.66
+MARTIN,Ammonia,0.0,24.942
+MARTIN,Lead  And Lead Compounds,0.0,2535.02
+MARTIN,Lead compounds,0.0,58.35
+MIAMI,Naphthalene,0.0,0.0
+MIAMI,Xylene (mixed isomers),0.0,13.0
+MONROE,Ethylene glycol,0.0,0.0
+MONROE,Nitric acid,0.0,10.0
+MONTGOMERY,Ammonia,2.0,0.8
+MONTGOMERY,Certain glycol ethers,0.0,6277.0
+MONTGOMERY,Copper,2.23,5.509
+MONTGOMERY,Ethylbenzene,0.0,3921.0
+MONTGOMERY,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,12287.62
+MONTGOMERY,Lead,7.69,750.01
+MONTGOMERY,Lead  And Lead Compounds,0.0,3489.922
+MONTGOMERY,Manganese,0.0,0.0
+MONTGOMERY,Methanol,0.0,2194.67
+MONTGOMERY,Naphthalene,0.0,2024.0
+MONTGOMERY,Nitric acid,0.0,365.0
+MONTGOMERY,Xylene (mixed isomers),0.0,19572.0
+MONTGOMERY,Zinc compounds,0.0,635916.62
+MONTGOMERY,n-Hexane,0.0,7066.0
+MORGAN,Certain glycol ethers,59353.0,5198.0
+MORGAN,Ethylene glycol,0.0,490.0
+MORGAN,Lead compounds,0.0,1.0
+MORGAN,Manganese,19.0,105.13
+MORGAN,Nickel,5.6,44.6
+NOBLE,"1,2,4-Trimethylbenzene",0.0,27399.48
+NOBLE,Certain glycol ethers,0.0,20834.0
+NOBLE,Chromium,0.4,786.5999999999999
+NOBLE,Copper,10.74,46168.04
+NOBLE,Diisocyanates,0.0,0.0
+NOBLE,Lead,6.3999999999999995,31.631
+NOBLE,Manganese,1.71,533.21
+NOBLE,Methanol,0.0,35593.2
+NOBLE,Nickel,1.71,1078.92
+NOBLE,Styrene,0.0,212654.0
+NOBLE,Toluene,0.0,947.0
+NOBLE,Xylene (mixed isomers),0.0,39582.26
+NOBLE,Zinc compounds,0.0,0.0
+ORANGE,Styrene,0.0,2760.0
+PARKE,Lead,0.0,11.68
+PERRY,Chromium,0.0,0.0
+PERRY,Diisocyanates,0.0,15.0
+PERRY,Lead compounds,0.0,43418.0
+PERRY,Manganese compounds,0.0,441044.0
+PERRY,Methanol,0.0,21201.0
+PERRY,Nickel,0.0,6313.0
+PERRY,Toluene,0.0,50169.0
+PERRY,Xylene (mixed isomers),0.0,27913.0
+PERRY,Zinc compounds,0.0,1794721.0
+PIKE,Ammonia,0.0,852.78
+PIKE,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,82163.0
+PIKE,Lead  And Lead Compounds,0.0,484.94
+PIKE,Naphthalene,0.0,0.0
+PIKE,Polycyclic aromatic compounds,0.0,13.4
+PIKE,Zinc compounds,0.0,3243.12
+PORTER,"1,2,4-Trimethylbenzene",0.0,7726.0
+PORTER,Ammonia,427.5,389239.82
+PORTER,Certain glycol ethers,0.0,27936.0
+PORTER,Chromium,0.86,17161.88
+PORTER,Copper,2.353,10229.623
+PORTER,Ethylbenzene,0.0,1560.161
+PORTER,Ethylene glycol,0.0,9.092
+PORTER,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,31162.0
+PORTER,Lead,0.03,1296.723
+PORTER,Lead  And Lead Compounds,0.0,79238.5
+PORTER,Lead compounds,0.0,0.151
+PORTER,Manganese,4.61,13383.03
+PORTER,Manganese compounds,0.0,151.71
+PORTER,Methanol,0.0,37553.977
+PORTER,Naphthalene,0.0,22290.0
+PORTER,Nickel,1.736,4138.276
+PORTER,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,4455.0
+PORTER,Polycyclic aromatic compounds,0.0,4081.0
+PORTER,Styrene,0.0,9011.151
+PORTER,Toluene,0.0,9802.61
+PORTER,Xylene (mixed isomers),0.0,5270.0
+PORTER,Zinc compounds,24.973,2491939.439
+PORTER,n-Hexane,0.0,0.0
+POSEY,"1,2,4-Trimethylbenzene",0.0,628.0
+POSEY,Ammonia,0.0,19669.0
+POSEY,Certain glycol ethers,0.0,1001.0
+POSEY,Chromium,0.0,414.0
+POSEY,Ethylbenzene,0.0,7023.0
+POSEY,Ethylene glycol,0.0,1503.0
+POSEY,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,35774.0
+POSEY,Lead compounds,0.0,8315.921999999999
+POSEY,Manganese compounds,0.0,29995.2
+POSEY,Methanol,0.0,61866.0
+POSEY,Naphthalene,0.0,110.95
+POSEY,Nickel,0.0,1708.0
+POSEY,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,1428038.0
+POSEY,Nitric acid,0.0,0.0
+POSEY,Polycyclic aromatic compounds,0.0,5607.574
+POSEY,Styrene,0.0,93.0
+POSEY,Toluene,0.0,59966.0
+POSEY,Xylene (mixed isomers),0.0,2118.0
+POSEY,Zinc compounds,0.0,41972.0
+POSEY,n-Hexane,0.0,527201.0
+PULASKI,Chromium,0.29,6.302
+PULASKI,Nitrate compounds (water dissociable; reportable only when in aqueous solution),1630.1,163.01
+PULASKI,Zinc compounds,5.16,3496.16
+PUTNAM,"1,2,4-Trimethylbenzene",0.0,130.0
+PUTNAM,Certain glycol ethers,0.0,132.0
+PUTNAM,Diisocyanates,0.0,15263.0
+PUTNAM,Ethylbenzene,0.0,232.0
+PUTNAM,Ethylene glycol,0.0,40.0
+PUTNAM,Lead  And Lead Compounds,0.0,8347.4
+PUTNAM,Methanol,0.0,185.0
+PUTNAM,Naphthalene,0.0,160.0
+PUTNAM,Polycyclic aromatic compounds,0.0,391.4
+PUTNAM,Styrene,0.0,186.0
+PUTNAM,Toluene,0.0,755.0
+PUTNAM,Xylene (mixed isomers),0.0,2565.0
+PUTNAM,Zinc compounds,0.0,7318.0
+PUTNAM,n-Hexane,0.0,2634.0
+RANDOLPH,Chromium,0.0,10.0
+RANDOLPH,Copper,0.0,10.0
+RANDOLPH,Lead  And Lead Compounds,0.0,1150.12
+RANDOLPH,Manganese,0.0,10.0
+RANDOLPH,Methanol,0.0,1855.85
+RANDOLPH,Nickel,0.0,15.0
+RANDOLPH,n-Hexane,0.0,5920.71
+RIPLEY,"1,2,4-Trimethylbenzene",0.0,38813.27
+RIPLEY,Chromium,0.0,0.62
+RIPLEY,Copper,8.35,112.39999999999999
+RIPLEY,Lead,2.2,773.9
+RIPLEY,Lead compounds,0.0,29.4
+RIPLEY,Manganese,10.0,115.49
+RIPLEY,Nickel,0.0,0.52
+RIPLEY,Polycyclic aromatic compounds,0.0,0.1
+RIPLEY,Zinc compounds,60.0,16310.0
+RUSH,Copper,0.0,0.0
+RUSH,Lead,0.0,112.834
+RUSH,Manganese,0.0,4916.714
+SCOTT,Polycyclic aromatic compounds,0.0,0.03
+SCOTT,Toluene,0.0,2387.0
+SCOTT,Zinc compounds,0.0,8.3
+SHELBY,Ammonia,58.3,374381.48
+SHELBY,Chromium,0.4,316.72
+SHELBY,Copper,6.9,10334.79
+SHELBY,Diisocyanates,0.0,310.0
+SHELBY,Ethylbenzene,0.0,2599.0
+SHELBY,Lead,0.4,293.44
+SHELBY,Manganese,2.1,743.06
+SHELBY,Methanol,0.0,50658.0
+SHELBY,Nickel,2.1,1467.3000000000002
+SHELBY,Polycyclic aromatic compounds,0.0,0.03
+SHELBY,Styrene,0.0,115561.0
+SHELBY,Xylene (mixed isomers),0.0,4036.0
+SHELBY,Zinc compounds,0.0,528.431
+SHELBY,n-Hexane,2.09,682288.396
+SPENCER,Ammonia,0.0,12365.0
+SPENCER,Chromium,0.0,460472.8
+SPENCER,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,26308.0
+SPENCER,Lead,0.0,23.9
+SPENCER,Lead compounds,0.0,10026.5
+SPENCER,Manganese,0.0,593.97
+SPENCER,Manganese compounds,0.0,52499.0
+SPENCER,Nickel,0.0,197334.0
+SPENCER,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,7322156.0
+SPENCER,Nitric acid,0.0,460.0
+SPENCER,Polycyclic aromatic compounds,0.0,1.7
+SPENCER,Zinc compounds,0.0,29727.0
+ST JOSEPH,"1,2,4-Trimethylbenzene",0.0,5414.0
+ST JOSEPH,Certain glycol ethers,874.0,6735.92
+ST JOSEPH,Chromium,15.17,46.977
+ST JOSEPH,Copper,0.229,195.656
+ST JOSEPH,Diisocyanates,0.0,0.0
+ST JOSEPH,Ethylbenzene,0.0,1694.0
+ST JOSEPH,Ethylene glycol,0.0,1419.0
+ST JOSEPH,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,1639.64
+ST JOSEPH,Lead,2.6719999999999997,13.691
+ST JOSEPH,Lead compounds,40.71,626.56
+ST JOSEPH,Manganese,73.3,866.025
+ST JOSEPH,Manganese compounds,486.67999999999995,5505.67
+ST JOSEPH,Methanol,0.0,2181.94
+ST JOSEPH,Naphthalene,0.0,1473.0
+ST JOSEPH,Nickel,29.97,42.9
+ST JOSEPH,Nitrate compounds (water dissociable; reportable only when in aqueous solution),20389.0,20389.0
+ST JOSEPH,Nitric acid,0.0,940.4
+ST JOSEPH,Styrene,0.0,114222.0
+ST JOSEPH,Xylene (mixed isomers),0.0,4180.0
+ST JOSEPH,Zinc compounds,1401.08,189538.31
+STARKE,Chromium,0.0,20.0
+STARKE,Copper,0.0,116.0
+STARKE,Manganese,0.0,338.0
+STARKE,Nickel,0.0,133.0
+STEUBEN,"1,2,4-Trimethylbenzene",0.0,620.0
+STEUBEN,Chromium,0.0,19.0
+STEUBEN,Copper,0.0,45.595
+STEUBEN,Lead,0.0,23.401
+STEUBEN,Manganese,0.0,85.8
+STEUBEN,Naphthalene,0.0,371.7
+STEUBEN,Nickel,0.0,14.0
+STEUBEN,Polycyclic aromatic compounds,0.0,39.899
+STEUBEN,Xylene (mixed isomers),0.0,74609.0
+STEUBEN,Zinc compounds,0.0,15814.187
+SULLIVAN,Ammonia,0.0,48715.9
+SULLIVAN,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,124359.0
+SULLIVAN,Lead,0.164,2.269
+SULLIVAN,Lead  And Lead Compounds,0.0,42837.86
+SULLIVAN,Lead compounds,0.0,172.65
+SULLIVAN,Manganese,0.0,164.934
+SULLIVAN,Naphthalene,0.0,0.0
+SULLIVAN,Zinc compounds,0.0,185199.14
+TIPPECANOE,"1,2,4-Trimethylbenzene",5.0,119385.6
+TIPPECANOE,Ammonia,2589.65,42683.86
+TIPPECANOE,Certain glycol ethers,5.0,208415.4
+TIPPECANOE,Chromium,2.87,353.853
+TIPPECANOE,Copper,25.26,3214.45
+TIPPECANOE,Diisocyanates,0.0,0.0
+TIPPECANOE,Ethylbenzene,5.0,23786.4
+TIPPECANOE,Ethylene glycol,0.0,673.0
+TIPPECANOE,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,668.29
+TIPPECANOE,Lead,1.58,351.80199999999996
+TIPPECANOE,Lead  And Lead Compounds,0.0,0.0
+TIPPECANOE,Lead compounds,0.0,175.6
+TIPPECANOE,Manganese,52.86,647.65
+TIPPECANOE,Manganese compounds,0.0,0.0
+TIPPECANOE,Methanol,10667.0,9043.36
+TIPPECANOE,Naphthalene,5.0,9745.5
+TIPPECANOE,Nickel,0.0,110.283
+TIPPECANOE,Nitrate compounds (water dissociable; reportable only when in aqueous solution),3779119.0,685759.8999999999
+TIPPECANOE,Nitric acid,0.0,0.0
+TIPPECANOE,Toluene,5.0,41992.7
+TIPPECANOE,Xylene (mixed isomers),5.0,34484.0
+TIPPECANOE,Zinc compounds,252.5,120002.5
+TIPPECANOE,n-Hexane,713.79,330983.85
+UNION,Certain glycol ethers,0.0,6740.0
+UNION,Ethylbenzene,0.0,5128.0
+UNION,Xylene (mixed isomers),0.0,16184.0
+VANDERBURGH,"1,2,4-Trimethylbenzene",0.0,5602.0
+VANDERBURGH,Certain glycol ethers,0.0,20240.0
+VANDERBURGH,Chromium,0.0,44.0
+VANDERBURGH,Diisocyanates,0.0,1269.0
+VANDERBURGH,Ethylbenzene,0.0,2020.0
+VANDERBURGH,Lead,1.0,17.04
+VANDERBURGH,Lead  And Lead Compounds,120.0,120.0
+VANDERBURGH,Lead compounds,0.0,0.945
+VANDERBURGH,Manganese compounds,0.0,0.0
+VANDERBURGH,Naphthalene,0.0,1334.0
+VANDERBURGH,Nickel,0.0,17.1
+VANDERBURGH,Nitrate compounds (water dissociable; reportable only when in aqueous solution),14466.2,1496.6
+VANDERBURGH,Nitric acid,0.0,1376.0
+VANDERBURGH,Polycyclic aromatic compounds,0.0,0.0
+VANDERBURGH,Toluene,0.0,6596.0
+VANDERBURGH,Xylene (mixed isomers),0.0,6358.0
+VANDERBURGH,Zinc compounds,750.0,3621.64
+VANDERBURGH,n-Hexane,0.0,630.0
+VERMILLION,Ammonia,0.0,13380.0
+VERMILLION,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,85000.0
+VERMILLION,Lead  And Lead Compounds,0.0,35102.52
+VERMILLION,Lead compounds,0.0,34.862
+VERMILLION,Methanol,0.0,23013.0
+VERMILLION,Nitrate compounds (water dissociable; reportable only when in aqueous solution),0.0,113700.0
+VERMILLION,Polycyclic aromatic compounds,0.0,2.7
+VERMILLION,Zinc compounds,0.0,121368.0
+VIGO,"1,2,4-Trimethylbenzene",0.0,0.0
+VIGO,Ammonia,34874.79,15034.786
+VIGO,Certain glycol ethers,0.0,0.0
+VIGO,Chromium,0.366,183.211
+VIGO,Ethylbenzene,0.0,0.0
+VIGO,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,596.0
+VIGO,Lead,0.0,5148.89
+VIGO,Lead  And Lead Compounds,0.0,0.052000000000000005
+VIGO,Manganese,0.0,674.93
+VIGO,Manganese compounds,0.0,0.0
+VIGO,Methanol,0.0,255.87
+VIGO,Nickel,1.9,65.045
+VIGO,Nitrate compounds (water dissociable; reportable only when in aqueous solution),133596.0,0.0
+VIGO,Nitric acid,0.0,93.9
+VIGO,Toluene,0.0,0.0
+VIGO,Xylene (mixed isomers),0.0,0.0
+VIGO,Zinc compounds,14.4,49.8
+VIGO,n-Hexane,0.0,0.0
+WABASH,Ammonia,0.0,24868.0
+WABASH,Copper,0.0,276.87
+WABASH,Diisocyanates,0.0,2.0
+WABASH,Lead,0.0,709.9649999999999
+WABASH,Lead  And Lead Compounds,2.8,7700.3
+WABASH,Lead compounds,49.0,99.0
+WABASH,Manganese,0.0,0.0
+WABASH,Manganese compounds,0.0,0.0
+WABASH,Methanol,0.0,1670.0
+WABASH,Toluene,0.0,0.0
+WABASH,Zinc compounds,465.4,121488.4
+WABASH,n-Hexane,0.0,3239.0
+WARRICK,"1,2,4-Trimethylbenzene",0.0,2400.0
+WARRICK,Ammonia,0.0,262.0
+WARRICK,Certain glycol ethers,0.0,9900.0
+WARRICK,Ethylbenzene,0.0,2300.0
+WARRICK,Ethylene glycol,0.0,3100.0
+WARRICK,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,134999.0
+WARRICK,Lead compounds,0.0,44364.9
+WARRICK,Manganese compounds,0.0,162175.84
+WARRICK,Naphthalene,0.0,890.0
+WARRICK,Polycyclic aromatic compounds,0.0,341.61
+WARRICK,Toluene,0.0,6300.0
+WARRICK,Xylene (mixed isomers),0.0,14416.0
+WARRICK,Zinc compounds,0.0,90720.0
+WASHINGTON,Chromium,0.0,5.0
+WASHINGTON,Copper,0.0,1475.0
+WASHINGTON,Lead,0.0,10.0
+WASHINGTON,Manganese,0.0,0.0
+WASHINGTON,Nickel,0.0,5.0
+WASHINGTON,Zinc compounds,0.0,801.0
+WAYNE,"1,2,4-Trimethylbenzene",0.0,430.0
+WAYNE,Ammonia,0.0,97728.0
+WAYNE,Certain glycol ethers,0.0,550.0
+WAYNE,Chromium,0.0,114.02
+WAYNE,Copper,0.0,390.71999999999997
+WAYNE,Lead,0.0,3.24
+WAYNE,Lead  And Lead Compounds,8.03,442.712
+WAYNE,Manganese,0.0,717.3
+WAYNE,Manganese compounds,0.0,0.0
+WAYNE,Nickel,0.0,11.43
+WAYNE,Nitrate compounds (water dissociable; reportable only when in aqueous solution),80134.0,0.0
+WAYNE,Nitric acid,0.0,0.0
+WAYNE,Xylene (mixed isomers),0.0,156.0
+WAYNE,Zinc compounds,52.87,8495.84
+WELLS,Chromium,0.26,11.03
+WELLS,Copper,0.26,19.26
+WELLS,"Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",0.0,21156.0
+WELLS,Lead,0.26,4.57
+WELLS,Lead compounds,0.0,0.0
+WELLS,Manganese,0.26,10.26
+WELLS,Manganese compounds,0.0,0.0
+WELLS,Methanol,0.0,809.0
+WELLS,Nickel,0.0,0.0
+WELLS,Toluene,0.0,19.0
+WELLS,Zinc compounds,0.0,0.0
+WELLS,n-Hexane,0.0,6330.0
+WHITE,Certain glycol ethers,0.0,102584.2
+WHITE,Chromium,4.1,4.1
+WHITE,Lead,3.95,3.97
+WHITE,Manganese,0.0,0.0
+WHITLEY,Certain glycol ethers,0.0,1.0
+WHITLEY,Chromium,5.31,7.803
+WHITLEY,Copper,1.93,16.93
+WHITLEY,Diisocyanates,0.0,0.0
+WHITLEY,Ethylbenzene,0.0,19.0
+WHITLEY,Lead,0.252,0.252
+WHITLEY,Lead compounds,7.0,736.091
+WHITLEY,Manganese,0.0,26.0
+WHITLEY,Manganese compounds,0.0,4257.0
+WHITLEY,Nickel,10.023,10.025
+WHITLEY,Toluene,0.0,1333.0
+WHITLEY,Xylene (mixed isomers),0.0,49.0
+WHITLEY,Zinc compounds,122.1,25845.101000000002
