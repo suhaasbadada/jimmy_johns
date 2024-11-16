@@ -1,0 +1,32 @@
+[
+    {
+        "id": "scala",
+        "label": "scala",
+        "value": 471,
+        "color": "hsl(254, 70%, 50%)"
+    },
+    {
+        "id": "java",
+        "label": "java",
+        "value": 155,
+        "color": "hsl(304, 70%, 50%)"
+    },
+    {
+        "id": "lisp",
+        "label": "lisp",
+        "value": 515,
+        "color": "hsl(48, 70%, 50%)"
+    },
+    {
+        "id": "stylus",
+        "label": "stylus",
+        "value": 319,
+        "color": "hsl(309, 70%, 50%)"
+    },
+    {
+        "id": "css",
+        "label": "css",
+        "value": 378,
+        "color": "hsl(337, 70%, 50%)"
+    }
+]
