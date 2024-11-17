@@ -56,10 +56,6 @@ python app.py
 - **Web-Based Search Tool**: Enter a zip code, address, or area of interest to quickly view contamination data and health risks associated with that region.
 - **Health Risk Analysis**: Review the risk analysis and download reports showing correlations between toxic chemicals and health outcomes.
 
-## Contributing
-
-We welcome contributions! If you'd like to contribute to the project, please fork the repository, create a new branch, and submit a pull request. Ensure your changes are well-documented and tested.
-
 ## Datasets Used
 ### State Cleanup Data
 This dataset contains information about chemical spills across various counties in Indiana, providing details on the location and nature of each spill.
@@ -96,6 +92,8 @@ Dataset Link: https://www.who.int/data/#collection
 ### Air Quality Dataset
 Curated by the World Health Organization (WHO), this dataset contains statistics on air pollutants from various countries worldwide. It provides a detailed look at pollution levels, enabling cross-country comparisons and facilitating research on air quality's impact on health and the environment.
 Dataset Link: https://www.who.int/data/#collection
+
+![Solution Architecture](soln_architecture.jpeg)
 
 ## License
 
