@@ -1,6 +1,6 @@
 # Indiana Toxicity Watch: Mapping Health & Environmental Risks
 
-    [View the Tool!](https://jimmy-johns.onrender.com/)
+[View the Tool!](https://jimmy-johns.onrender.com/)
 
 ## Project Overview
 
