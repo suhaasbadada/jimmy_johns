@@ -1,8 +1,4 @@
-# Vite & NextUI Template
-
-This is a template for creating applications using Vite and NextUI (v2).
-
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/vite-template)
+# Toxin Visualizer
 
 ## Technologies Used
 
@@ -12,24 +8,31 @@ This is a template for creating applications using Vite and NextUI (v2).
 - [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [Framer Motion](https://www.framer.com/motion)
+- [Nivo](https://nivo.rocks/)
 
-## How to Use
+## Build Instructions
 
-To clone the project, run the following command:
+1. Clone repo:
 
 ```bash
-git clone https://github.com/nextui-org/vite-template.git
+git clone https://github.com/suhaasbadada/jimmy_johns.git
 ```
 
-### Install dependencies
+2. Switch to visualizer branch
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+3. cd to visualizer folder
+
+```bash
+cd visualizer
+```
+
+3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### Run the development server
+4. Run in local environment (navigate to localhost:5173 in browser)
 
 ```bash
 npm run dev
