@@ -61,6 +61,29 @@ python app.py
 We welcome contributions! If you'd like to contribute to the project, please fork the repository, create a new branch, and submit a pull request. Ensure your changes are well-documented and tested.
 
 ## Datasets Used
+### State Cleanup Data
+This dataset contains information about chemical spills across various counties in Indiana, providing details on the location and nature of each spill.
+Dataset Link: https://www.in.gov/idem/cleanups/investigation-and-cleanup-programs/state-cleanup-program/
+
+### Toxic Releases Dataset
+This dataset is used to analyze toxic chemical releases and their potential impact on health outcomes, helping to identify areas of concern related to environmental health.
+Dataset Link: https://enviro.epa.gov/triexplorer/tri_factsheet.factsheet_forstate?pYear=2022&pstate=IN&pParent=NAT
+
+### Institutional Controls
+This dataset is used for geolocation tagging, providing information to accurately map and track environmental and health-related data based on geographic locations.
+Dataset Link: https://www.in.gov/idem/cleanups/investigation-and-cleanup-programs/institutional-controls/
+
+### Indiana Zip Codes
+This dataset contains zip code information for Indiana, used to create accurate geographic maps.
+Dataset Link: https://www.stats.indiana.edu/maptools/county_zips.xls
+
+### Superfund Sites Data
+This dataset provides details about the U.S. EPA's Superfund program, focusing on contaminated lands being cleaned up for safe use. It includes information on site locations, contamination levels, and cleanup status.
+Dataset Link: https://www.epa.gov/superfund/search-superfund-sites-where-you-live
+
+### Spills Data
+This dataset contains details of chemical spills across various counties in Indiana.
+Dataset Link: https://www.in.gov/idem/cleanups/investigation-and-cleanup-programs/emergency-response/
 
 ### Quality of Life and Premature Death Statistics
 This dataset provides comprehensive insights into the quality of life and premature death rates for each county. Quality of life is represented through state rankings, highlighting where each county stands. Premature death statistics are detailed by actual death counts and years of potential life lost (YPLL), offering a nuanced understanding of mortality impacts.
