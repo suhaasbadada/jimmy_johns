@@ -1,5 +1,7 @@
 # Indiana Toxicity Watch: Mapping Health & Environmental Risks
-    Visit https://jimmy-johns.onrender.com/ to view the tool!
+
+    [View the Tool!](https://jimmy-johns.onrender.com/)
+
 ## Project Overview
 
 The Indiana Toxicity Watch platform is designed to empower citizens, policymakers, and researchers by providing a comprehensive, accessible, and interactive tool to monitor toxic chemicals, their geolocation, and the associated health risks in Indiana. This project integrates multiple data sources, offering visualizations, health risk analysis, and a web-based search tool to track environmental risks and enable informed decisions.
