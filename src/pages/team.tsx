@@ -2,6 +2,7 @@
 import DefaultLayout from "@/layouts/default";
 
 export default function DocsPage() {
+    
     return (
         <DefaultLayout>
             <section className="pb-10 pt-5 dark:bg-dark lg:pb-20 lg:pt-[120px]">
@@ -25,21 +26,25 @@ export default function DocsPage() {
                             name="Suhaas Badada"
                             profession="Master of Computer Science"
                             imageSrc="/suhaas.jpg"
+                            interests={"Passionate about data & tech, motivated to build impactful solutions. Always ready for a game of badminton :)"}
                         />
                         <TeamCard
                             name="Shubham Kumar"
                             profession="Master of Computer Science"
                             imageSrc="/shubham.jpg"
+                            interests={"My interests lie at the intersection of algorithms and machine learning. I am passionate about leveraging advanced algorithms to optimize machine learning models and solve complex real-world problems."}
                         />
                         <TeamCard
                             name="Abhay Singh"
                             profession="Master of Data Science"
                             imageSrc="/abhay.jpg"
+                            interests={"As an accomplished data engineer with background in optimizing data processes and analytics, my experience spans across industry leaders such as AP Moller Maersk and MAQ Software."}
                         />
                         <TeamCard
                             name="Murun Tsogtkhuyag"
                             profession="Master of Computer Science"
                             imageSrc="/murun.jpg"
+                            interests={"I am passionate about systems languages and environments, including High Performance Computing. I focus on Linux systems and C/C++."}
                         />
                     </div>
                 </div>
@@ -48,7 +53,7 @@ export default function DocsPage() {
     );
 }
 
-const TeamCard = ({ imageSrc, name, profession }) => {
+const TeamCard = ({ imageSrc, name, profession, interests}) => {
     return (
         <>
             <div className="w-full px-4 md:w-1/2 xl:w-1/4">
@@ -235,6 +240,7 @@ const TeamCard = ({ imageSrc, name, profession }) => {
                             </div>
                         </div>
                     </div>
+                    <p className="border-l-red-500 border-l-8 pl-4 pt-2 rounded-b-md text-balance">{interests}</p>
                 </div>
             </div>
         </>

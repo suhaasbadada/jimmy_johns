@@ -9,7 +9,7 @@ function App() {
     return (
         <Routes>
             <Route element={<IndexPage />} path="/" />
-            <Route element={<PageOne />} path="/carcinogens" />
+            <Route element={<PageOne />} path="/tri" />
             <Route element={<PageTwo />} path="/page2" />
             <Route element={<TeamPage />} path="/team" />
         </Routes>

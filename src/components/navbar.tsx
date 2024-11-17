@@ -4,8 +4,6 @@ import {
     Navbar as NextUINavbar,
     NavbarItem
 } from "@nextui-org/navbar";
-import { link as linkStyles } from "@nextui-org/theme";
-import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import {

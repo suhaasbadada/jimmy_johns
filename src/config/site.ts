@@ -5,19 +5,19 @@ export const siteConfig = {
     description: "Visualize toxic waste data",
     navItems: [
         {
-            label: "Spill Data",
+            label: "Spills Data",
             href: "/",
         },
         {
-            label: "Carcinogens",
-            href: "/carcinogens",
+            label: "TRI 2023",
+            href: "/tri",
         },
         {
-            label: "Spill Search",
+            label: "Search Tool",
             href: "https://jimmy-johns.onrender.com/",
         },
         {
-            label: "Dashboard",
+            label: "Dashboards",
             href: "https://app.powerbi.com/view?r=eyJrIjoiMWEyMjllYWYtNTEwZi00MmExLTlhMzAtNGRkNmU0MWQzZjVmIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9",
         },
         {
@@ -27,19 +27,19 @@ export const siteConfig = {
     ],
     navMenuItems: [
         {
-            label: "Spill Data",
+            label: "Spills Data",
             href: "/",
         },
         {
-            label: "Carcinogens",
-            href: "/carcinogens",
+            label: "TRI 2023",
+            href: "/tri",
         },
         {
-            label: "Spill Search",
+            label: "Search Tool",
             href: "https://jimmy-johns.onrender.com/",
         },
         {
-            label: "Dashboard",
+            label: "Dashboards",
             href: "https://app.powerbi.com/view?r=eyJrIjoiMWEyMjllYWYtNTEwZi00MmExLTlhMzAtNGRkNmU0MWQzZjVmIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9",
         },
         {
