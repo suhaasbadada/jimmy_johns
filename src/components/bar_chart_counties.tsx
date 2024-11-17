@@ -75,7 +75,7 @@ export default function BarChartCounties() {
                 tickSize: 5,
                 tickPadding: 5,
                 tickRotation: 45,
-                legend: 'City',
+                legend: 'County',
                 legendPosition: 'middle',
                 legendOffset: 90,
                 truncateTickAt: 0,

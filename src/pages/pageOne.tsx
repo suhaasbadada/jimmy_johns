@@ -1,15 +1,8 @@
-import CleanupBar from "@/components/cleaup_bar";
-import SpillLine from "@/components/spill_line";
 import PieChart from "@/components/pi_chart";
 import BarChartCities from "@/components/bar_chart_cities";
 import BarChartCounties from "@/components/bar_chart_counties";
 import DefaultLayout from "@/layouts/default";
 import { Spacer } from "@nextui-org/spacer";
-
-/**
- * Credits: TailGrids
- * free template
- */
 
 export default function DocsPage() {
     return (

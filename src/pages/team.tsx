@@ -1,11 +1,16 @@
 
 import DefaultLayout from "@/layouts/default";
 
+/**
+ * Credits: TailGrids
+ * free template
+ */
+
 export default function DocsPage() {
-    
+
     return (
         <DefaultLayout>
-            <section className="pb-10 pt-5 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+            <section className="pb-10 pt-5 dark:bg-dark lg:pb-20 lg:pt-8">
                 <div className="container mx-auto">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4">
@@ -53,7 +58,7 @@ export default function DocsPage() {
     );
 }
 
-const TeamCard = ({ imageSrc, name, profession, interests}) => {
+const TeamCard = ({ imageSrc, name, profession, interests }) => {
     return (
         <>
             <div className="w-full px-4 md:w-1/2 xl:w-1/4">
