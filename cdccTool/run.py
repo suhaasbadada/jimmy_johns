@@ -1,10 +1,13 @@
 from flask import Flask, render_template, request
 import pandas as pd
+import os
 
 app = Flask(__name__)
 
 # Load the contamination data
-contamination_data = pd.read_csv('ins_controls_indiana.csv')
+curr_dir=os.path.dirname(os.path.abspath(__file__))
+csv_path=os.path.join(curr_dir,'ins_controls_indiana.csv')
+contamination_data = pd.read_csv(csv_path)
 
 def process(value):
     return value if pd.notna(value) else "Not specified"
