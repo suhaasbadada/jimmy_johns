@@ -2,6 +2,7 @@ import CleanupBar from "@/components/cleaup_bar";
 import SpillLine from "@/components/spill_line";
 import PieChart from "@/components/pi_chart";
 import BarChartCities from "@/components/bar_chart_cities";
+import BarChartCounties from "@/components/bar_chart_counties";
 import DefaultLayout from "@/layouts/default";
 import { Spacer } from "@nextui-org/spacer";
 
@@ -38,13 +39,23 @@ export default function IndexPage() {
 
                 <section className="border-l-8 border-gray-500 flex flex-col items-center justify-center bg-slate-100 rounded-r-3xl shadow-xl">
                     <h2 className="font-bold pb-2 text-lg">Toxins per Year in 2023</h2>
-
                     <Spacer y={3} />
-
                     <h2>Carcinogenics per City</h2>
                     <div className="h-[54rem] w-full">
                         <BarChartCities />
                         <p className="text-center bg-white w-fit m-2 px-1 mt-4 rounded-md mx-auto"><span className="italic">Figure:</span> This figure shows the detected toxins per city in Indiana in 2023.</p>
+                    </div>
+                    <Spacer y={3} />
+                </section>
+
+                <Spacer y={20} />
+
+                <section className="border-l-8 border-gray-500 flex flex-col items-center justify-center bg-slate-100 rounded-r-3xl shadow-xl">
+                    <h2 className="font-bold pb-2 text-lg">Carcinogenics per County in 2023</h2>
+                    <Spacer y={3} />
+                    <div className="h-[54rem] w-full">
+                        <BarChartCounties />
+                        <p className="text-center bg-white w-fit m-2 px-1 mt-4 rounded-md mx-auto"><span className="italic">Figure:</span> This figure shows the detected toxins per county in Indiana in 2023.</p>
                     </div>
                     <Spacer y={3} />
                 </section>
