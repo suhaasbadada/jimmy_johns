@@ -1,0 +1,12 @@
+[
+    {
+        "id": "Non-Carcinogenic",
+        "label": "Non-Carcinogenic",
+        "value": 2324
+    },
+    {
+        "id": "Carcinogenic",
+        "label": "Carcinogenic",
+        "value": 951
+    }
+]
