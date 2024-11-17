@@ -5,8 +5,12 @@ export const siteConfig = {
     description: "Visualize toxic waste data",
     navItems: [
         {
-            label: "Home",
+            label: "Spill Data",
             href: "/",
+        },
+        {
+            label: "Carcinogens",
+            href: "/carcinogens",
         },
         {
             label: "Spill Search",
@@ -23,16 +27,20 @@ export const siteConfig = {
     ],
     navMenuItems: [
         {
-            label: "Home",
+            label: "Spill Data",
             href: "/",
         },
         {
-            label: "Page 1",
-            href: "/page1",
+            label: "Carcinogens",
+            href: "/carcinogens",
         },
         {
-            label: "Page 2",
-            href: "/page2",
+            label: "Spill Search",
+            href: "https://jimmy-johns.onrender.com/",
+        },
+        {
+            label: "Dashboard",
+            href: "https://app.powerbi.com/view?r=eyJrIjoiMWEyMjllYWYtNTEwZi00MmExLTlhMzAtNGRkNmU0MWQzZjVmIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9",
         },
         {
             label: "Team",
