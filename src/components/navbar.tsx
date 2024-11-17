@@ -20,10 +20,7 @@ export const Navbar = () => {
                 {siteConfig.navItems.map((item) => (
                     <NavbarItem key={item.href}>
                         <Link
-                            className={clsx(
-                                linkStyles({ color: "foreground" }),
-                                "data-[active=true]:text-primary data-[active=true]:font-medium",
-                            )}
+                            className="underline hover:text-red-500"
                             color="foreground"
                             href={item.href}
                         >
