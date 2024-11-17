@@ -13,7 +13,7 @@ import {
 export const Navbar = () => {
 
     return (
-        <NextUINavbar className="flex border-2 border-red-600 max-w-2xl md:mx-auto mt-5" maxWidth="lg" position="sticky">
+        <NextUINavbar className="relative flex bg-slate-200 max-w-2xl md:mx-auto mt-5 rounded-3xl" maxWidth="lg" position="sticky">
             <div className="flex gap-4 lg:gap-6 justify-start">
                 {siteConfig.navItems.map((item) => (
                     <NavbarItem key={item.href}>
@@ -34,8 +34,6 @@ export const Navbar = () => {
                 </Link>
                 {/**<ThemeSwitch /> */}
             </div>
-
-
         </NextUINavbar>
     );
 };
