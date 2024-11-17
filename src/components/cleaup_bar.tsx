@@ -5,16 +5,11 @@ import bar_data from "@/data/bar_chart_data.json";
 export default function CleanupBar() {
     let size = bar_data.length;
 
-    let i = 1;
     let k = []
-    for (i = 1; i <= size; i++) {
+    for (let i = 1; i <= size; i++) {
         //k.push(bar_data[i].x);
         k.push("y" + i.toString())
     }
-    i = 3;
-
-    //let a = Object.keys(j_object);
-    //i = 3;
 
     return (
         <ResponsiveBar
