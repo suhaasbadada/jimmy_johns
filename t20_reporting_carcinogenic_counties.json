@@ -1,0 +1,86 @@
+[
+    {
+        "data": [
+            {
+                "x": "LAKE",
+                "y": 88
+            },
+            {
+                "x": "MARION",
+                "y": 85
+            },
+            {
+                "x": "ELKHART",
+                "y": 73
+            },
+            {
+                "x": "ALLEN",
+                "y": 39
+            },
+            {
+                "x": "POSEY",
+                "y": 31
+            },
+            {
+                "x": "PORTER",
+                "y": 29
+            },
+            {
+                "x": "KOSCIUSKO",
+                "y": 28
+            },
+            {
+                "x": "CASS",
+                "y": 27
+            },
+            {
+                "x": "TIPPECANOE",
+                "y": 26
+            },
+            {
+                "x": "DEKALB",
+                "y": 25
+            },
+            {
+                "x": "ST JOSEPH",
+                "y": 21
+            },
+            {
+                "x": "PUTNAM",
+                "y": 21
+            },
+            {
+                "x": "NOBLE",
+                "y": 18
+            },
+            {
+                "x": "DELAWARE",
+                "y": 18
+            },
+            {
+                "x": "VANDERBURGH",
+                "y": 16
+            },
+            {
+                "x": "GIBSON",
+                "y": 16
+            },
+            {
+                "x": "MARSHALL",
+                "y": 16
+            },
+            {
+                "x": "VIGO",
+                "y": 14
+            },
+            {
+                "x": "BARTHOLOMEW",
+                "y": 14
+            },
+            {
+                "x": "WHITLEY",
+                "y": 13
+            }
+        ]
+    }
+]

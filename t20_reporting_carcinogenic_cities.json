@@ -1,0 +1,66 @@
+[
+    {
+        "data": [
+            {
+                "x": "INDIANAPOLIS",
+                "y": 85
+            },
+            {
+                "x": "ELKHART",
+                "y": 40
+            },
+            {
+                "x": "EAST CHICAGO",
+                "y": 35
+            },
+            {
+                "x": "MOUNT VERNON",
+                "y": 31
+            },
+            {
+                "x": "LOGANSPORT",
+                "y": 27
+            },
+            {
+                "x": "LAFAYETTE",
+                "y": 26
+            },
+            {
+                "x": "FORT WAYNE",
+                "y": 26
+            },
+            {
+                "x": "GREENCASTLE",
+                "y": 21
+            },
+            {
+                "x": "WHITING",
+                "y": 19
+            },
+            {
+                "x": "MUNCIE",
+                "y": 17
+            },
+            {
+                "x": "EVANSVILLE",
+                "y": 16
+            },
+            {
+                "x": "HAMMOND",
+                "y": 16
+            },
+            {
+                "x": "WARSAW",
+                "y": 15
+            },
+            {
+                "x": "COLUMBUS",
+                "y": 14
+            },
+            {
+                "x": "TERRE HAUTE",
+                "y": 14
+            }
+        ]
+    }
+]
