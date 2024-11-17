@@ -61,7 +61,7 @@ const TeamCard = ({ imageSrc, name, profession, interests}) => {
                     <div className="relative overflow-hidden rounded-lg">
                         <img src={imageSrc} alt="" className="w-full" />
                         <div className="absolute bottom-5 left-0 w-full text-center">
-                            <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5 dark:bg-dark-2">
+                            <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-3 dark:bg-dark-2">
                                 <h3 className="text-base font-semibold text-dark dark:text-white">
                                     {name}
                                 </h3>
