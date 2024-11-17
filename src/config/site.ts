@@ -5,6 +5,10 @@ export const siteConfig = {
     description: "Visualize toxic waste data",
     navItems: [
         {
+            label: "Home",
+            href: "/",
+        },
+        {
             label: "Spill Search",
             href: "https://jimmy-johns.onrender.com/",
         },
@@ -18,6 +22,10 @@ export const siteConfig = {
         },
     ],
     navMenuItems: [
+        {
+            label: "Home",
+            href: "/",
+        },
         {
             label: "Page 1",
             href: "/page1",
