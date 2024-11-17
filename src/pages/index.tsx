@@ -3,6 +3,7 @@ import SpillLine from "@/components/spill_line";
 import PieChart from "@/components/pi_chart";
 import DefaultLayout from "@/layouts/default";
 import { Spacer } from "@nextui-org/spacer";
+import SearchZipcode from "@/components/search_zipcode";
 
 export default function IndexPage() {
     return (
