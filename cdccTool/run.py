@@ -73,4 +73,4 @@ def dashboards():
     return render_template('dashboards.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
