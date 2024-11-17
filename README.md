@@ -1,7 +1,10 @@
 # Toxin Visualizer
 
+This branch is a visualizer for the Hackathon Case 3.
+
 ## Technologies Used
 
+- [ReactJS](https://react.dev/)
 - [Vite](https://vitejs.dev/guide/)
 - [NextUI](https://nextui.org)
 - [Tailwind CSS](https://tailwindcss.com)
@@ -19,6 +22,10 @@ git clone https://github.com/suhaasbadada/jimmy_johns.git
 ```
 
 2. Switch to visualizer branch
+
+```bash
+git checkout visualizer
+```
 
 3. cd to visualizer folder
 
