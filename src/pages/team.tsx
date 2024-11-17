@@ -14,13 +14,19 @@ export default function DocsPage() {
                 <div className="container mx-auto">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4">
-                            <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+                            <div className="relative mx-auto mb-[60px] max-w-[510px] text-center">
+
                                 <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
-                                    Jimmy John's Hackathon Team
+                                    <span className="text-red-500">Jimmy John's</span> Hackathon Team
                                 </h2>
-                                <p className="text-base text-body-color dark:text-dark-6">
-                                    We are Masters graduate students studying Data Science and Computer Science at IU Bloomington. Our skills together range from data analytics, machine learning, and software developement.
-                                </p>
+
+                                <div>
+                                    <div className="absolute -left-4 rounded-xl animate-bounce w-1 h-20 border-2 border-blue-500 bg-blue-500">
+                                    </div>
+                                    <p className="text-base text-body-color dark:text-dark-6">
+                                        We are Masters graduate students studying Data Science and Computer Science at IU Bloomington. Our skills together range from data analytics, machine learning, and software developement.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
