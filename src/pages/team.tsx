@@ -24,22 +24,22 @@ export default function DocsPage() {
                         <TeamCard
                             name="Suhaas Badada"
                             profession="Master of Computer Science"
-                            imageSrc="./src/img/suhaas.jpg"
+                            imageSrc="/suhaas.jpg"
                         />
                         <TeamCard
                             name="Shubham Kumar"
                             profession="Master of Computer Science"
-                            imageSrc="./src/img/shubham.jpg"
+                            imageSrc="/shubham.jpg"
                         />
                         <TeamCard
                             name="Abhay Singh"
                             profession="Master of Data Science"
-                            imageSrc="./src/img/abhay.jpg"
+                            imageSrc="/abhay.jpg"
                         />
                         <TeamCard
                             name="Murun Tsogtkhuyag"
                             profession="Master of Computer Science"
-                            imageSrc="./src/img/murun.jpg"
+                            imageSrc="/murun.jpg"
                         />
                     </div>
                 </div>

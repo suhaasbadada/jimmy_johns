@@ -6,6 +6,11 @@ import BarChartCounties from "@/components/bar_chart_counties";
 import DefaultLayout from "@/layouts/default";
 import { Spacer } from "@nextui-org/spacer";
 
+/**
+ * Credits: TailGrids
+ * free template
+ */
+
 export default function DocsPage() {
     return (
         <DefaultLayout>
