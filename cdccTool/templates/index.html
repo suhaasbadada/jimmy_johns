@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contamination Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../static/bgimg.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+        .header-left {
+            flex: 1;
+        }
+        .header-center {
+            flex: 2;
+            text-align: center;
+        }
+        .header-right {
+            flex: 1;
+            text-align: right;
+        }
+        .logo {
+            height: 50px;
+            width: auto;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .logo:hover {
+            opacity: 1;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .dashboard-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .dashboard-btn:hover {
+            background-color: #45a049;
+        }
+        .container {
+            max-width: 800px;
+            margin: 100px auto 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="{{ url_for('static', filename='iu-logo.png') }}" alt="Logo" class="logo">
+        </div>
+        <div class="header-center">
+            <h1>Contamination Search</h1>
+        </div>
+        <div class="header-right">
+            <a href="/dashboards" class="dashboard-btn">Dashboards</a>
+        </div>
+    </div>
+    <div class="container">
+        <form method="POST">
+            <label for="search_type">Search by:</label>
+            <select name="search_type" id="search_type">
+                <option value="zip">ZIP Code</option>
+                <option value="address">Address</option>
+            </select>
+            <br><br>
+            <input type="text" name="search_value" required>
+            <input type="submit" value="Search">
+        </form>
+        
+        {% if result %}
+        <h2>Search Results:</h2>
+        <pre>{{ result }}</pre>
+        {% endif %}
+    </div>
+</body>
+</html>
