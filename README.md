@@ -18,6 +18,13 @@ The platform aggregates publicly available data on toxic chemicals, correlates t
 - **Web-Based Search Tool**: Users can search by zip code, address, or area of interest to instantly view contamination risks and health data.
 - **Data Insights and Reporting**: Visualize trends over time, with downloadable reports to assist advocacy for environmental policy changes.
 
+## Repo Structure
+- cdccTool/ - complete flask code for the web based tool which interlinks between dashboards and visual graphs and trend charts.
+- derivedData/ - filtered datasets relevant to Indiana post analysis of multiple data sources and files.
+- src/ - source code for generating aggregated data using ETL pipeline and building machine learning models, also contains ready to consume datasets for the dashboards.
+- Notebooks/ - Jupyter notebooks where EDA was performed and visualizations were generated.
+- Additional files include, yaml file for deployment, json objects for the trend charts
+
 ## Technologies Used
 
 - Backend: Python, Flask (for the web-based search tool)
