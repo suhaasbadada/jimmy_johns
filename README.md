@@ -14,7 +14,7 @@ The platform aggregates publicly available data on toxic chemicals, correlates t
 
 - **Data Aggregation & Cleansing**: Integrated data from various public sources, cleaned and standardized for ease of use.
 - **Visualization Dashboard**: An interactive map that allows users to filter by chemical, health outcomes, and location proximity to important areas like schools, hospitals, and residential zones.
-- **Health Risk Analysis**: A risk analysis model that correlates toxic chemicals with health outcomes like cancer, respiratory diseases, and other health issues.
+- **Health Risk Analysis**: Comprehensive models have been built that examine the correlation between toxic chemical exposure and health outcomes such as cancer, respiratory diseases, and other conditions. Leveraging machine learning, specifically Random Forest Regressors, the analysis uncovers critical insights into the impact of various chemicals on human health, identifies key contributing factors, and aids in understanding broader environmental health patterns.
 - **Web-Based Search Tool**: Users can search by zip code, address, or area of interest to instantly view contamination risks and health data.
 - **Data Insights and Reporting**: Visualize trends over time, with downloadable reports to assist advocacy for environmental policy changes.
 
