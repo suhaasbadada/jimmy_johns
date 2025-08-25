@@ -49,7 +49,7 @@
     }
 
     .container {
-      max-width: 800px;
+      max-width: 1000px;
       margin: 100px auto 0;
       padding: 20px;
       background-color: rgba(255, 255, 255, 0.95);
@@ -140,16 +140,19 @@
     }
 
     .cards {
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       gap: 20px;
+      align-items: stretch; 
     }
 
     .card {
       border-radius: 8px;
       padding: 16px;
       background-color: #ffffff;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
     }
 
     .card h3 {
@@ -210,7 +213,6 @@
     document.addEventListener("DOMContentLoaded", function () {
       const searchBox = document.querySelector('input[name="search_value"]');
       const searchType = document.querySelector('select[name="search_type"]');
-      const container = searchBox.parentNode;
       const autocompleteList = document.getElementById('autocomplete-list');
 
       searchBox.addEventListener('input', function () {

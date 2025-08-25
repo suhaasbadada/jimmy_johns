@@ -33,6 +33,8 @@ def format_cards(matches, search_type):
     if matches.empty:
         return None, f"No contamination records found for this {search_type}."
     else:
+        matches = matches.drop_duplicates(subset=['FACILITY_NAME', 'FULL_ADDRESS'])
+        
         cards = []
         for _, row in matches.iterrows():
             cards.append({
@@ -45,6 +47,7 @@ def format_cards(matches, search_type):
                 "Control Recommended": row['CONTROL_METHOD']
             })
         return cards, None
+
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -87,4 +90,4 @@ def dashboards():
     return render_template('dashboards.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
