@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CDCC Web Tool</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
@@ -59,36 +58,54 @@
 
     form {
       margin-bottom: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 10px;
-      position: relative; 
+      position: relative;
+      display: block;
     }
 
-    label {
+    .search-row {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .search-type {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 0 0 200px;
+    }
+
+    .search-type label {
+      margin: 0;
       font-weight: 600;
       font-family: 'Work Sans', sans-serif;
+      font-size: 14px;
     }
 
-    select,
-    input[type="text"] {
+    .search-type select {
+      padding: 8px;
+      border-radius: 5px;
+      font-size: 15px;
+      border: 1px solid #dadada;
+      background: #fff;
+    }
+
+    .autocomplete-container {
+      position: relative;
+      flex: 1;
+      max-width: 500px;
+      min-width: 200px;
+    }
+
+    .autocomplete-container input[type="text"] {
+      width: 100%;
       padding: 10px;
       border: 1px solid #ddd;
       border-radius: 5px;
       font-size: 16px;
       font-family: 'Open Sans', sans-serif;
-    }
-
-    .autocomplete-container {
-      position: relative;
-      flex: 1 1 250px;
-      max-width: 500px;
-      width: 100%;
-    }
-
-    .autocomplete-container input[type="text"] {
-      width: 100%;
       box-sizing: border-box;
     }
 
@@ -117,6 +134,47 @@
       background-color: #e6e6e6;
     }
 
+    .form-filters-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 18px;
+      align-items: flex-end;
+    }
+
+    .filter-block {
+      display: flex;
+      flex-direction: column;
+      min-width: 180px;
+      flex: 1 1 180px;
+      margin-bottom: 0;
+    }
+
+    .filter-block label {
+      font-weight: 600;
+      font-family: 'Work Sans', sans-serif;
+      margin-bottom: 3px;
+      font-size: 14px;
+    }
+
+    .filter-block select {
+      padding: 8px;
+      border-radius: 5px;
+      font-size: 15px;
+      border: 1px solid #dadada;
+      background: #fff;
+    }
+
+    @media (max-width: 900px) {
+      .search-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .search-type {
+        flex: 1;
+      }
+    }
+
     button,
     input[type="submit"] {
       background-color: rgb(153, 0, 0);
@@ -126,7 +184,6 @@
       font-size: 16px;
       font-family: 'Work Sans', Helvetica, Arial, sans-serif;
       font-weight: bold;
-      line-height: 16px;
       border-radius: 4px;
       cursor: pointer;
       transition: all 0.3s ease;
@@ -143,7 +200,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       gap: 20px;
-      align-items: stretch; 
+      align-items: stretch;
     }
 
     .card {
@@ -176,36 +233,76 @@
 
   <div class="container">
     <form method="POST" autocomplete="off">
-      <label for="search_type">Search by:</label>
-      <select name="search_type" id="search_type">
-        <option value="zip" {% if request.form.get('search_type') == 'zip' %}selected{% endif %}>ZIP Code</option>
-        <option value="address" {% if request.form.get('search_type') == 'address' %}selected{% endif %}>Address</option>
-        <option value="area" {% if request.form.get('search_type') == 'area' %}selected{% endif %}>Area</option>
-      </select>
-      <div class="autocomplete-container">
-        <input type="text" name="search_value" required placeholder="Enter ZIP or address" autocomplete="off" value="{{ request.form.get('search_value', '') }}"/>
-        <div id="autocomplete-list"></div>
+      <div class="search-row">
+        <div class="search-type">
+          <label for="search_type">Search by:</label>
+          <select name="search_type" id="search_type">
+            <option value="zip" {% if request.form.get('search_type') == 'zip' %}selected{% endif %}>ZIP Code</option>
+            <option value="address" {% if request.form.get('search_type') == 'address' %}selected{% endif %}>Address</option>
+            <option value="area" {% if request.form.get('search_type') == 'area' %}selected{% endif %}>Area</option>
+          </select>
+        </div>
+        <div class="autocomplete-container">
+          <input type="text" name="search_value" required placeholder="Enter ZIP or address" autocomplete="off" value="{{ request.form.get('search_value', '') }}"/>
+          <div id="autocomplete-list"></div>
+        </div>
       </div>
+
+      <div class="form-filters-group">
+        <div class="filter-block">
+          <label for="filter_media">Affected Media</label>
+          <select name="filter_media" id="filter_media">
+            {% for val in media_options %}
+              <option value="{{ val }}" {% if selected_filters.get('AFFECTED_MEDIA') == val %}selected{% endif %}>{{ val }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="filter-block">
+          <label for="filter_restriction">Restriction Coverage</label>
+          <select name="filter_restriction" id="filter_restriction">
+            {% for val in restriction_options %}
+              <option value="{{ val }}" {% if selected_filters.get('RESTRICTION_COVERAGE') == val %}selected{% endif %}>{{ val }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="filter-block">
+          <label for="filter_constituents">Constituents of Concern</label>
+          <select name="filter_constituents" id="filter_constituents">
+            {% for val in constituents_options %}
+              <option value="{{ val }}" {% if selected_filters.get('CONSTITUENTS_OF_CONCERN') == val %}selected{% endif %}>{{ val }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="filter-block">
+          <label for="filter_control">Control Recommended</label>
+          <select name="filter_control" id="filter_control">
+            {% for val in control_options %}
+              <option value="{{ val }}" {% if selected_filters.get('CONTROL_METHOD') == val %}selected{% endif %}>{{ val }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+
       <input type="submit" value="Search" />
     </form>
 
     {% if cards %}
-    <h2>Search Results:</h2>
-    <div class="cards">
+      <h2>Search Results:</h2>
+      <div class="cards">
       {% for card in cards %}
-      <div class="card">
-        <h3>{{ card['Facility Name'] }}</h3> <hr>
-        <p><strong>Address:</strong> {{ card['Address'] }}</p>
-        <p><strong>Contamination Recorded:</strong> {{ card['Contamination Recorded'] }}</p>
-        <p><strong>Affected Media:</strong> {{ card['Affected Media'] }}</p>
-        <p><strong>Constituents of Concern:</strong> {{ card['Constituents of Concern'] }}</p>
-        <p><strong>Restriction Coverage:</strong> {{ card['Restriction Coverage'] }}</p>
-        <p><strong>Control Recommended:</strong> {{ card['Control Recommended'] }}</p>
-      </div>
+        <div class="card">
+          <h3>{{ card['Facility Name'] }}</h3> <hr>
+          <p><strong>Address:</strong> {{ card['Address'] }}</p>
+          <p><strong>Contamination Recorded:</strong> {{ card['Contamination Recorded'] }}</p>
+          <p><strong>Affected Media:</strong> {{ card['Affected Media'] }}</p>
+          <p><strong>Constituents of Concern:</strong> {{ card['Constituents of Concern'] }}</p>
+          <p><strong>Restriction Coverage:</strong> {{ card['Restriction Coverage'] }}</p>
+          <p><strong>Control Recommended:</strong> {{ card['Control Recommended'] }}</p>
+        </div>
       {% endfor %}
-    </div>
+      </div>
     {% elif result %}
-    <h2>{{ result }}</h2>
+      <h2>{{ result }}</h2>
     {% endif %}
   </div>
 
