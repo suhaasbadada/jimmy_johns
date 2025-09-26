@@ -61,11 +61,10 @@ def search_by_area(area, contamination_data, area_type='CITY'):
     return format_cards(matches, area_type)
 
 
-RESULTS_PER_PAGE = 6  # number of cards per page
+RESULTS_PER_PAGE = 6
 
 @app.route('/', methods=['GET'])
 def index():
-    # Get all parameters from GET request
     search_type = request.args.get('search_type', '')
     search_value = request.args.get('search_value', '')
     
@@ -78,10 +77,8 @@ def index():
     
     cards, result = None, None
 
-    # Default page
     page = int(request.args.get('page', 1))
 
-    # Initialize request_args with current request parameters
     request_args = {
         "search_type": search_type,
         "search_value": search_value,
@@ -91,7 +88,6 @@ def index():
         "filter_control": filters['CONTROL_METHOD']
     }
 
-    # Perform search if we have both search_type and search_value
     if search_type and search_value:
         filtered_data = apply_filters(contamination_data, filters)
 
@@ -102,7 +98,6 @@ def index():
         else:
             cards, result = search_contamination(search_value, filtered_data)
 
-    # Pagination
     total_results = len(cards) if cards else 0
     total_pages = math.ceil(total_results / RESULTS_PER_PAGE) if total_results else 1
 
