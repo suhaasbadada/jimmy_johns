@@ -1,3 +1,4 @@
+import math
 from flask import Flask, render_template, request, jsonify
 import pandas as pd
 import os
@@ -60,22 +61,38 @@ def search_by_area(area, contamination_data, area_type='CITY'):
     return format_cards(matches, area_type)
 
 
-@app.route('/', methods=['GET', 'POST'])
+RESULTS_PER_PAGE = 6  # number of cards per page
+
+@app.route('/', methods=['GET'])
 def index():
+    # Get all parameters from GET request
+    search_type = request.args.get('search_type', '')
+    search_value = request.args.get('search_value', '')
+    
     filters = {
-        'AFFECTED_MEDIA': request.form.get('filter_media', ''),
-        'RESTRICTION_COVERAGE': request.form.get('filter_restriction', ''),
-        'CONSTITUENTS_OF_CONCERN': request.form.get('filter_constituents', ''),
-        'CONTROL_METHOD': request.form.get('filter_control', '')
+        'AFFECTED_MEDIA': request.args.get('filter_media', ''),
+        'RESTRICTION_COVERAGE': request.args.get('filter_restriction', ''),
+        'CONSTITUENTS_OF_CONCERN': request.args.get('filter_constituents', ''),
+        'CONTROL_METHOD': request.args.get('filter_control', '')
     }
-    search_type = None
-    search_value = None
+    
     cards, result = None, None
 
-    if request.method == 'POST':
-        search_type = request.form['search_type']
-        search_value = request.form['search_value']
+    # Default page
+    page = int(request.args.get('page', 1))
 
+    # Initialize request_args with current request parameters
+    request_args = {
+        "search_type": search_type,
+        "search_value": search_value,
+        "filter_media": filters['AFFECTED_MEDIA'],
+        "filter_restriction": filters['RESTRICTION_COVERAGE'],
+        "filter_constituents": filters['CONSTITUENTS_OF_CONCERN'],
+        "filter_control": filters['CONTROL_METHOD']
+    }
+
+    # Perform search if we have both search_type and search_value
+    if search_type and search_value:
         filtered_data = apply_filters(contamination_data, filters)
 
         if search_type == 'zip':
@@ -84,6 +101,16 @@ def index():
             cards, result = search_by_area(search_value, filtered_data)
         else:
             cards, result = search_contamination(search_value, filtered_data)
+
+    # Pagination
+    total_results = len(cards) if cards else 0
+    total_pages = math.ceil(total_results / RESULTS_PER_PAGE) if total_results else 1
+
+    if cards:
+        start = (page - 1) * RESULTS_PER_PAGE
+        end = start + RESULTS_PER_PAGE
+        cards = cards[start:end]
+
     media_options = ['All'] + get_unique_values(contamination_data, 'AFFECTED_MEDIA')
     restriction_options = ['All'] + get_unique_values(contamination_data, 'RESTRICTION_COVERAGE')
     constituents_options = ['All'] + get_unique_values(contamination_data, 'CONSTITUENTS_OF_CONCERN')
@@ -91,12 +118,16 @@ def index():
 
     return render_template(
         'index.html',
-        cards=cards, result=result,
+        cards=cards, 
+        result=result,
         media_options=media_options,
         restriction_options=restriction_options,
         constituents_options=constituents_options,
         control_options=control_options,
-        selected_filters=filters
+        selected_filters=filters,
+        page=page, 
+        total_pages=total_pages,
+        request_args=request_args
     )
 
 @app.route('/autocomplete')

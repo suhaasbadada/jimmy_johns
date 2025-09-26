@@ -7,249 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
-
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    body {
-      background-color: #f5f7f9;
-      color: #333;
-      line-height: 1.6;
-      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    }
-    
-    header {
-      background: linear-gradient(to right, #990000, #cc3333);
-      color: white;
-      padding: 1.5rem 1rem;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      position: fixed;
-      width: 100%;
-      top: 0;
-      z-index: 1000;
-    }
-    
-    .logo-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 0.5rem;
-    }
-    
-    .logo {
-      height: 60px;
-      width: auto;
-      margin-right: 1rem;
-    }
-    
-    header h1 {
-      font-size: 2.2rem;
-      font-weight: 600;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-      font-family: 'Work Sans', sans-serif;
-      margin: 0;
-    }
-    
-    header p {
-      font-size: 1.2rem;
-      margin: 0;
-      opacity: 0.9;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: 180px auto 0;
-      padding: 20px;
-      background-color: rgba(255, 255, 255, 0.95);
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    form {
-      margin-bottom: 20px;
-      position: relative;
-      display: block;
-    }
-
-    .search-row {
-      display: flex;
-      gap: 16px;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-bottom: 18px;
-    }
-
-    .search-type {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex: 0 0 200px;
-    }
-
-    .search-type label {
-      margin: 0;
-      font-weight: 600;
-      font-family: 'Work Sans', sans-serif;
-      font-size: 14px;
-    }
-
-    .search-type select {
-      padding: 8px;
-      border-radius: 5px;
-      font-size: 15px;
-      border: 1px solid #dadada;
-      background: #fff;
-    }
-
-    .autocomplete-container {
-      position: relative;
-      flex: 1;
-      max-width: 500px;
-      min-width: 200px;
-    }
-
-    .autocomplete-container input[type="text"] {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      font-size: 16px;
-      font-family: 'Open Sans', sans-serif;
-      box-sizing: border-box;
-    }
-
-    #autocomplete-list {
-      position: absolute;
-      left: 0;
-      top: 100%;
-      background: #fff;
-      z-index: 1001;
-      border: 1px solid #eee;
-      max-height: 200px;
-      overflow-y: auto;
-      width: 100%;
-      box-sizing: border-box;
-      border-radius: 0 0 5px 5px;
-      margin-top: -1px;
-    }
-
-    #autocomplete-list div {
-      padding: 8px 10px;
-      cursor: pointer;
-      font-size: 15px;
-    }
-
-    #autocomplete-list div:hover {
-      background-color: #e6e6e6;
-    }
-
-    .form-filters-group {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      margin-bottom: 18px;
-      align-items: flex-end;
-    }
-
-    .filter-block {
-      display: flex;
-      flex-direction: column;
-      min-width: 180px;
-      flex: 1 1 180px;
-      margin-bottom: 0;
-    }
-
-    .filter-block label {
-      font-weight: 600;
-      font-family: 'Work Sans', sans-serif;
-      margin-bottom: 3px;
-      font-size: 14px;
-    }
-
-    .filter-block select {
-      padding: 8px;
-      border-radius: 5px;
-      font-size: 15px;
-      border: 1px solid #dadada;
-      background: #fff;
-    }
-
-    @media (max-width: 900px) {
-      .search-row {
-        flex-direction: column;
-        align-items: stretch;
-      }
-      .search-type {
-        flex: 1;
-      }
-      
-      header h1 {
-        font-size: 1.8rem;
-      }
-      
-      header p {
-        font-size: 1rem;
-      }
-      
-      .container {
-        margin-top: 200px;
-      }
-    }
-
-    button,
-    input[type="submit"] {
-      background-color: rgb(153, 0, 0);
-      color: white;
-      border: 2px solid rgb(153, 0, 0);
-      padding: 12px 20px;
-      font-size: 16px;
-      font-family: 'Work Sans', Helvetica, Arial, sans-serif;
-      font-weight: bold;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      margin: 0;
-    }
-
-    button:hover,
-    input[type="submit"]:hover {
-      background-color: white;
-      color: rgb(153, 0, 0);
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 20px;
-      align-items: stretch;
-    }
-
-    .card {
-      border-radius: 8px;
-      padding: 16px;
-      background-color: #ffffff;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: column;
-    }
-
-    .card h3 {
-      margin: 0 0 8px;
-      font-size: 18px;
-      font-family: 'Work Sans', sans-serif;
-    }
-
-    .card p {
-      margin: 4px 0;
-      font-size: 14px;
-    }
-  </style>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 
 <body>
@@ -262,18 +20,18 @@
   </header>
 
   <div class="container">
-    <form method="POST" autocomplete="off">
+    <form method="GET" autocomplete="off">
       <div class="search-row">
         <div class="search-type">
           <label for="search_type">Search by:</label>
           <select name="search_type" id="search_type">
-            <option value="zip" {% if request.form.get('search_type') == 'zip' %}selected{% endif %}>ZIP Code</option>
-            <option value="address" {% if request.form.get('search_type') == 'address' %}selected{% endif %}>Address</option>
-            <option value="area" {% if request.form.get('search_type') == 'area' %}selected{% endif %}>Area</option>
+            <option value="zip" {% if request_args.get('search_type') == 'zip' %}selected{% endif %}>ZIP Code</option>
+            <option value="address" {% if request_args.get('search_type') == 'address' %}selected{% endif %}>Address</option>
+            <option value="area" {% if request_args.get('search_type') == 'area' %}selected{% endif %}>Area</option>
           </select>
         </div>
         <div class="autocomplete-container">
-          <input type="text" name="search_value" required placeholder="Enter ZIP or address" autocomplete="off" value="{{ request.form.get('search_value', '') }}"/>
+          <input type="text" name="search_value" required placeholder="Enter ZIP or address" autocomplete="off" value="{{ request_args.get('search_value', '') }}"/>
           <div id="autocomplete-list"></div>
         </div>
       </div>
@@ -283,7 +41,7 @@
           <label for="filter_media">Affected Media</label>
           <select name="filter_media" id="filter_media">
             {% for val in media_options %}
-              <option value="{{ val }}" {% if selected_filters.get('AFFECTED_MEDIA') == val %}selected{% endif %}>{{ val }}</option>
+              <option value="{{ val }}" {% if request_args.get('filter_media') == val %}selected{% endif %}>{{ val }}</option>
             {% endfor %}
           </select>
         </div>
@@ -291,7 +49,7 @@
           <label for="filter_restriction">Restriction Coverage</label>
           <select name="filter_restriction" id="filter_restriction">
             {% for val in restriction_options %}
-              <option value="{{ val }}" {% if selected_filters.get('RESTRICTION_COVERAGE') == val %}selected{% endif %}>{{ val }}</option>
+              <option value="{{ val }}" {% if request_args.get('filter_restriction') == val %}selected{% endif %}>{{ val }}</option>
             {% endfor %}
           </select>
         </div>
@@ -299,7 +57,7 @@
           <label for="filter_constituents">Constituents of Concern</label>
           <select name="filter_constituents" id="filter_constituents">
             {% for val in constituents_options %}
-              <option value="{{ val }}" {% if selected_filters.get('CONSTITUENTS_OF_CONCERN') == val %}selected{% endif %}>{{ val }}</option>
+              <option value="{{ val }}" {% if request_args.get('filter_constituents') == val %}selected{% endif %}>{{ val }}</option>
             {% endfor %}
           </select>
         </div>
@@ -307,7 +65,7 @@
           <label for="filter_control">Control Recommended</label>
           <select name="filter_control" id="filter_control">
             {% for val in control_options %}
-              <option value="{{ val }}" {% if selected_filters.get('CONTROL_METHOD') == val %}selected{% endif %}>{{ val }}</option>
+              <option value="{{ val }}" {% if request_args.get('filter_control') == val %}selected{% endif %}>{{ val }}</option>
             {% endfor %}
           </select>
         </div>
@@ -319,17 +77,30 @@
     {% if cards %}
       <h2>Search Results:</h2>
       <div class="cards">
-      {% for card in cards %}
-        <div class="card">
-          <h3>{{ card['Facility Name'] }}</h3> <hr>
-          <p><strong>Address:</strong> {{ card['Address'] }}</p>
-          <p><strong>Contamination Recorded:</strong> {{ card['Contamination Recorded'] }}</p>
-          <p><strong>Affected Media:</strong> {{ card['Affected Media'] }}</p>
-          <p><strong>Constituents of Concern:</strong> {{ card['Constituents of Concern'] }}</p>
-          <p><strong>Restriction Coverage:</strong> {{ card['Restriction Coverage'] }}</p>
-          <p><strong>Control Recommended:</strong> {{ card['Control Recommended'] }}</p>
-        </div>
-      {% endfor %}
+        {% for card in cards %}
+          <div class="card">
+            <h3>{{ card['Facility Name'] }}</h3> <hr>
+            <p><strong>Address:</strong> {{ card['Address'] }}</p>
+            <p><strong>Contamination Recorded:</strong> {{ card['Contamination Recorded'] }}</p>
+            <p><strong>Affected Media:</strong> {{ card['Affected Media'] }}</p>
+            <p><strong>Constituents of Concern:</strong> {{ card['Constituents of Concern'] }}</p>
+            <p><strong>Restriction Coverage:</strong> {{ card['Restriction Coverage'] }}</p>
+            <p><strong>Control Recommended:</strong> {{ card['Control Recommended'] }}</p>
+          </div>
+        {% endfor %}
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination" style="margin-top:20px; text-align:center;">
+        {% if page > 1 %}
+          <a href="{{ url_for('index', page=page-1, **request_args) }}">Previous</a>
+        {% endif %}
+
+        <span> Page {{ page }} of {{ total_pages }} </span>
+
+        {% if page < total_pages %}
+          <a href="{{ url_for('index', page=page+1, **request_args) }}">Next</a>
+        {% endif %}
       </div>
     {% elif result %}
       <h2>{{ result }}</h2>
